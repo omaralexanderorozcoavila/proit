@@ -55,40 +55,40 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<nav id="primary-menu" class="sub-title">
 
 						<ul>
-							<li class="current"><a href="inicio"><div>PROIT</div><span>Nosotros</span></a>
+							<li class="current"><a href="inicio"><div><?php echo $this->lang->line('link_home'); ?></div><span><?php echo $this->lang->line('sub_text_link_home'); ?></span></a>
 								<ul>
-									<li><a href="nosotros"><div>Sobre Nosotros</div></a></li>
+									<li><a href="nosotros"><div><?php echo $this->lang->line('link_nosotros'); ?></div></a></li>
 								</ul>
 							</li>
-							<li><a href="#"><div>Mercados</div><span>Buy Now</span></a>
+							<li><a href="#"><div><?php echo $this->lang->line('link_mercados'); ?></div><span><?php echo $this->lang->line('sub_text_link_mercados'); ?></span></a>
 								<ul>
-									<li><a href="admin_p"><div>Administración Pública</div></a></li>
-									<li><a href="ambiente"><div>Ambiente</div></a></li>
-									<li><a href="agricultura"><div>Agricultura</div></a></li>
-									<li><a href="energia"><div>Energía</div></a></li>
-									<li><a href="industria"><div>Industria 4.0</div></a></li>
-									<li><a href="mar"><div>Mar y Crecimiento Azul</div></a></li>
-									<li><a href="salud"><div>Salud</div></a></li>
-									<li><a href="servicios_f"><div>Servicios Financieros</div></a></li>
-									<li><a href="telecomunicaciones"><div>Telecomunicaciones</div></a></li>
-									<li><a href="transporte"><div>Transporte</div></a></li>
-									<li><a href="ciudades_i"><div>Ciudades inteligentes y IOT</div></a></li>
+									<li><a href="admin_p"><div><?php echo $this->lang->line('link_admin'); ?></div></a></li>
+									<li><a href="ambiente"><div><?php echo $this->lang->line('link_ambiente'); ?></div></a></li>
+									<li><a href="agricultura"><div><?php echo $this->lang->line('link_agricultura'); ?></div></a></li>
+									<li><a href="energia"><div><?php echo $this->lang->line('link_energia'); ?></div></a></li>
+									<li><a href="industria"><div><?php echo $this->lang->line('link_industria'); ?></div></a></li>
+									<li><a href="mar"><div><?php echo $this->lang->line('link_mar'); ?></div></a></li>
+									<li><a href="salud"><div><?php echo $this->lang->line('link_salud'); ?></div></a></li>
+									<li><a href="servicios_f"><div><?php echo $this->lang->line('link_servicios'); ?></div></a></li>
+									<li><a href="telecomunicaciones"><div><?php echo $this->lang->line('link_telecomunicaciones'); ?></div></a></li>
+									<li><a href="transporte"><div><?php echo $this->lang->line('link_transporte'); ?></div></a></li>
+									<li><a href="ciudades_i"><div><?php echo $this->lang->line('link_ciudades'); ?></div></a></li>
 								</ul>
 							</li>
-							<li><a href="#"><div>Soluciones</div><span>Amazing Elements</span></a>
+							<li><a href="#"><div><?php echo $this->lang->line('link_soluciones'); ?></div><span><?php echo $this->lang->line('sub_text_link_soluciones'); ?></span></a>
 								<ul>
-									<li><a href="soluciones"><div>Soluciones de Negocios</div></a></li>
-									<li><a href="intraestructura"><div>Infraestructura</div></a></li>
-									<li><a href="seguridad"><div>Seguridad</div></a></li>
-									<li><a href="plataformas"><div>Plataformas en Aplicaciones</div></a></li>
-									<li><a href="redes_i"><div>Redes Inteligentes</div></a></li>
-									<li><a href="gestion_s"><div>Gestión de servicios</div></a></li>
-									<li><a href="outsourcing"><div>Outsourcing Global</div></a></li>
-									<li><a href="productos"><div>Productos Compra</div></a></li>
+									<li><a href="soluciones"><div><?php echo $this->lang->line('link_soluciones_n'); ?></div></a></li>
+									<li><a href="intraestructura"><div><?php echo $this->lang->line('link_infraestructura'); ?></div></a></li>
+									<li><a href="seguridad"><div><?php echo $this->lang->line('link_seguridad'); ?></div></a></li>
+									<li><a href="plataformas"><div><?php echo $this->lang->line('link_plataformas'); ?></div></a></li>
+									<li><a href="redes_i"><div><?php echo $this->lang->line('link_redes'); ?></div></a></li>
+									<li><a href="gestion_s"><div><?php echo $this->lang->line('link_gestion'); ?></div></a></li>
+									<li><a href="outsourcing"><div><?php echo $this->lang->line('link_outsourcing'); ?></div></a></li>
+									<li><a href="productos"><div><?php echo $this->lang->line('link_productos'); ?></div></a></li>
 								</ul>
 							</li>
 							<li>
-								<a href="contacto"><div>Contactos</div><span>Información de contacto</span></a>
+								<a href="contacto"><div><?php echo $this->lang->line('link_contactos'); ?></div><span><?php echo $this->lang->line('sub_text_link_contactos'); ?></span></a>
 							</li>
 						</ul>
 
@@ -100,6 +100,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
 							</form>
 						</div>--><!-- #top-search end -->
+						
+						<!-- Top Search
+						============================================= -->
+						<div id="top-search">
+							<a onclick="javascript:window.location.href='<?php echo base_url(); ?>LanguageSwitcher/switchLang/portuguese';" href="#">
+							<?php if($this->session->userdata('site_lang') == 'portuguese') echo '<span style="color:#3DAAD6;">Pt</span>'; 
+							else echo '<span>Pt</span>';?>
+							</a>
+						</div><!-- #top-search end -->
 						
 						<!-- Top Search
 						============================================= -->
@@ -191,7 +200,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 					<div class="col_half col_last tright">
 						<div class="copyrights-menu copyright-links fright clearfix">
-							<a href="#"><?php echo $this->lang->line('link_home'); ?></a>/<a href="#"><?php echo $this->lang->line('link_about'); ?></a>/<a href="#"><?php echo $this->lang->line('link_features'); ?></a>/<a href="#"><?php echo $this->lang->line('link_portfolio'); ?></a>/<a href="#"><?php echo $this->lang->line('link_faqs'); ?></a>/<a href="#"><?php echo $this->lang->line('link_contact'); ?></a>
+							<a href="#"><?php echo $this->lang->line('link_home_footer'); ?></a>/<a href="#"><?php echo $this->lang->line('link_mercado_footer'); ?></a>/<a href="#"><?php echo $this->lang->line('link_soluciones_footer'); ?></a>/<a href="#"><?php echo $this->lang->line('link_contact_footer'); ?></a>
 						</div>
 						<div class="fright clearfix">
 							<a href="#" class="social-icon si-small si-borderless nobottommargin si-facebook">
@@ -199,7 +208,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<i class="icon-facebook"></i>
 							</a>
 
-							<a href="#" class="social-icon si-small si-borderless nobottommargin si-twitter">
+							<!--<a href="#" class="social-icon si-small si-borderless nobottommargin si-twitter">
 								<i class="icon-twitter"></i>
 								<i class="icon-twitter"></i>
 							</a>
@@ -227,7 +236,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<a href="#" class="social-icon si-small si-borderless nobottommargin si-yahoo">
 								<i class="icon-yahoo"></i>
 								<i class="icon-yahoo"></i>
-							</a>
+							</a>-->
 
 							<a href="#" class="social-icon si-small si-borderless nobottommargin si-linkedin">
 								<i class="icon-linkedin"></i>
