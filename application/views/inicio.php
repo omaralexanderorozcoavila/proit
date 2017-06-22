@@ -92,50 +92,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							</li>
 						</ul>
 
-						<!-- Top Cart
-						============================================= -->
-						<div id="top-cart">
-							<a href="#" id="top-cart-trigger"><i class="icon-shopping-cart"></i><span>5</span></a>
-							<div class="top-cart-content">
-								<div class="top-cart-title">
-									<h4>Shopping Cart</h4>
-								</div>
-								<div class="top-cart-items">
-									<div class="top-cart-item clearfix">
-										<div class="top-cart-item-image">
-											<a href="#"><img src="<?php echo assets_url(); ?>images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
-										</div>
-										<div class="top-cart-item-desc">
-											<a href="#">Blue Round-Neck Tshirt</a>
-											<span class="top-cart-item-price">$19.99</span>
-											<span class="top-cart-item-quantity">x 2</span>
-										</div>
-									</div>
-									<div class="top-cart-item clearfix">
-										<div class="top-cart-item-image">
-											<a href="#"><img src="<?php echo assets_url(); ?>images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
-										</div>
-										<div class="top-cart-item-desc">
-											<a href="#">Light Blue Denim Dress</a>
-											<span class="top-cart-item-price">$24.99</span>
-											<span class="top-cart-item-quantity">x 3</span>
-										</div>
-									</div>
-								</div>
-								<div class="top-cart-action clearfix">
-									<span class="fleft top-checkout-price">$114.95</span>
-									<button class="button button-3d button-small nomargin fright">View Cart</button>
-								</div>
-							</div>
-						</div><!-- #top-cart end -->
-
 						<!-- Top Search
 						============================================= -->
-						<div id="top-search">
+						<!--<div id="top-search">
 							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
 							<form action="search.html" method="get">
 								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
 							</form>
+						</div>--><!-- #top-search end -->
+						
+						<!-- Top Search
+						============================================= -->
+						<div id="top-search">
+							<a onclick="javascript:window.location.href='<?php echo base_url(); ?>LanguageSwitcher/switchLang/spanish';" href="#">
+							<?php if($this->session->userdata('site_lang') == 'spanish') echo '<span style="color:#3DAAD6;">Es</span>'; 
+							else echo '<span>Es</span>';?>
+							</a>
+						</div><!-- #top-search end -->
+						
+						<!-- Top Search
+						============================================= -->
+						<div id="top-search">
+							<a onclick="javascript:window.location.href='<?php echo base_url(); ?>LanguageSwitcher/switchLang/english';" href="#">
+							<?php if($this->session->userdata('site_lang') == 'english') echo '<span style="color:#3DAAD6;">En</span>'; 
+							else echo '<span>En</span>';?>
+							</a>
 						</div><!-- #top-search end -->
 
 					</nav><!-- #primary-menu end -->
@@ -205,13 +186,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 					<div class="col_half">
 						<img src="<?php echo assets_url(); ?>images/footer-logo.png" alt="" class="footer-logo">
-
-						Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.
+						<?php echo $this->lang->line('rights_message'); ?>
 					</div>
 
 					<div class="col_half col_last tright">
 						<div class="copyrights-menu copyright-links fright clearfix">
-							<a href="#">Home</a>/<a href="#">About</a>/<a href="#">Features</a>/<a href="#">Portfolio</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
+							<a href="#"><?php echo $this->lang->line('link_home'); ?></a>/<a href="#"><?php echo $this->lang->line('link_about'); ?></a>/<a href="#"><?php echo $this->lang->line('link_features'); ?></a>/<a href="#"><?php echo $this->lang->line('link_portfolio'); ?></a>/<a href="#"><?php echo $this->lang->line('link_faqs'); ?></a>/<a href="#"><?php echo $this->lang->line('link_contact'); ?></a>
 						</div>
 						<div class="fright clearfix">
 							<a href="#" class="social-icon si-small si-borderless nobottommargin si-facebook">
