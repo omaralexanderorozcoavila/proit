@@ -55,87 +55,77 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<nav id="primary-menu" class="sub-title">
 
 						<ul>
-							<li><a href="inicio"><div>PROIT</div><span>Sobre Nosotros</span></a>
+							<li class="current"><a href="inicio"><div><?php echo $this->lang->line('link_home'); ?></div><span><?php echo $this->lang->line('sub_text_link_home'); ?></span></a>
 								<ul>
-									<li><a href="nosotros"><div>Sobre Nosotros</div></a></li>
+									<li><a href="nosotros"><div><?php echo $this->lang->line('link_nosotros'); ?></div></a></li>
 								</ul>
 							</li>
-							<li><a href="#"><div>Mercados</div><span>Buy Now</span></a>
+							<li><a href="#"><div><?php echo $this->lang->line('link_mercados'); ?></div><span><?php echo $this->lang->line('sub_text_link_mercados'); ?></span></a>
 								<ul>
-									<li><a href="admin_p"><div>Administración Pública</div></a></li>
-									<li><a href="ambiente"><div>Ambiente</div></a></li>
-									<li><a href="agricultura"><div>Agricultura</div></a></li>
-									<li><a href="energia"><div>Energía</div></a></li>
-									<li><a href="industria"><div>Industria 4.0</div></a></li>
-									<li><a href="mar"><div>Mar y Crecimiento Azul</div></a></li>
-									<li><a href="salud"><div>Salud</div></a></li>
-									<li><a href="servicios_f"><div>Servicios Financieros</div></a></li>
-									<li><a href="telecomunicaciones"><div>Telecomunicaciones</div></a></li>
-									<li><a href="transporte"><div>Transporte</div></a></li>
-									<li><a href="ciudades_i"><div>Ciudades inteligentes y IOT</div></a></li>
+									<li><a href="admin_p"><div><?php echo $this->lang->line('link_admin'); ?></div></a></li>
+									<li><a href="ambiente"><div><?php echo $this->lang->line('link_ambiente'); ?></div></a></li>
+									<li><a href="agricultura"><div><?php echo $this->lang->line('link_agricultura'); ?></div></a></li>
+									<li><a href="energia"><div><?php echo $this->lang->line('link_energia'); ?></div></a></li>
+									<li><a href="industria"><div><?php echo $this->lang->line('link_industria'); ?></div></a></li>
+									<li><a href="mar"><div><?php echo $this->lang->line('link_mar'); ?></div></a></li>
+									<li><a href="salud"><div><?php echo $this->lang->line('link_salud'); ?></div></a></li>
+									<li><a href="servicios_f"><div><?php echo $this->lang->line('link_servicios'); ?></div></a></li>
+									<li><a href="telecomunicaciones"><div><?php echo $this->lang->line('link_telecomunicaciones'); ?></div></a></li>
+									<li><a href="transporte"><div><?php echo $this->lang->line('link_transporte'); ?></div></a></li>
+									<li><a href="ciudades_i"><div><?php echo $this->lang->line('link_ciudades'); ?></div></a></li>
 								</ul>
 							</li>
-							<li><a href="#"><div>Soluciones</div><span>Amazing Elements</span></a>
+							<li><a href="#"><div><?php echo $this->lang->line('link_soluciones'); ?></div><span><?php echo $this->lang->line('sub_text_link_soluciones'); ?></span></a>
 								<ul>
-									<li><a href="soluciones"><div>Soluciones de Negocios</div></a></li>
-									<li><a href="intraestructura"><div>Infraestructura</div></a></li>
-									<li><a href="seguridad"><div>Seguridad</div></a></li>
-									<li><a href="plataformas"><div>Plataformas en Aplicaciones</div></a></li>
-									<li><a href="redes_i"><div>Redes Inteligentes</div></a></li>
-									<li><a href="gestion_s"><div>Gestión de servicios</div></a></li>
-									<li><a href="outsourcing"><div>Outsourcing Global</div></a></li>
-									<li><a href="productos"><div>Productos Compra</div></a></li>
+									<li><a href="soluciones"><div><?php echo $this->lang->line('link_soluciones_n'); ?></div></a></li>
+									<li><a href="intraestructura"><div><?php echo $this->lang->line('link_infraestructura'); ?></div></a></li>
+									<li><a href="seguridad"><div><?php echo $this->lang->line('link_seguridad'); ?></div></a></li>
+									<li><a href="plataformas"><div><?php echo $this->lang->line('link_plataformas'); ?></div></a></li>
+									<li><a href="redes_i"><div><?php echo $this->lang->line('link_redes'); ?></div></a></li>
+									<li><a href="gestion_s"><div><?php echo $this->lang->line('link_gestion'); ?></div></a></li>
+									<li><a href="outsourcing"><div><?php echo $this->lang->line('link_outsourcing'); ?></div></a></li>
+									<li><a href="productos"><div><?php echo $this->lang->line('link_productos'); ?></div></a></li>
 								</ul>
 							</li>
-							<li class="current">
-								<a href="contacto"><div>Contactos</div><span>Información de contacto</span></a>
+							<li>
+								<a href="contacto"><div><?php echo $this->lang->line('link_contactos'); ?></div><span><?php echo $this->lang->line('sub_text_link_contactos'); ?></span></a>
 							</li>
 						</ul>
 
-						<!-- Top Cart
-						============================================= -->
-						<div id="top-cart">
-							<a href="#" id="top-cart-trigger"><i class="icon-shopping-cart"></i><span>5</span></a>
-							<div class="top-cart-content">
-								<div class="top-cart-title">
-									<h4>Shopping Cart</h4>
-								</div>
-								<div class="top-cart-items">
-									<div class="top-cart-item clearfix">
-										<div class="top-cart-item-image">
-											<a href="#"><img src="<?php echo assets_url(); ?>images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
-										</div>
-										<div class="top-cart-item-desc">
-											<a href="#">Blue Round-Neck Tshirt</a>
-											<span class="top-cart-item-price">$19.99</span>
-											<span class="top-cart-item-quantity">x 2</span>
-										</div>
-									</div>
-									<div class="top-cart-item clearfix">
-										<div class="top-cart-item-image">
-											<a href="#"><img src="<?php echo assets_url(); ?>images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
-										</div>
-										<div class="top-cart-item-desc">
-											<a href="#">Light Blue Denim Dress</a>
-											<span class="top-cart-item-price">$24.99</span>
-											<span class="top-cart-item-quantity">x 3</span>
-										</div>
-									</div>
-								</div>
-								<div class="top-cart-action clearfix">
-									<span class="fleft top-checkout-price">$114.95</span>
-									<button class="button button-3d button-small nomargin fright">View Cart</button>
-								</div>
-							</div>
-						</div><!-- #top-cart end -->
-
 						<!-- Top Search
 						============================================= -->
-						<div id="top-search">
+						<!--<div id="top-search">
 							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
 							<form action="search.html" method="get">
 								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
 							</form>
+						</div>--><!-- #top-search end -->
+						
+						<!-- Top Search
+						============================================= -->
+						<div id="top-search">
+							<a onclick="javascript:window.location.href='<?php echo base_url(); ?>LanguageSwitcher/switchLang/portuguese';" href="#">
+							<?php if($this->session->userdata('site_lang') == 'portuguese') echo '<span style="color:#3DAAD6;">Pt</span>'; 
+							else echo '<span>Pt</span>';?>
+							</a>
+						</div><!-- #top-search end -->
+						
+						<!-- Top Search
+						============================================= -->
+						<div id="top-search">
+							<a onclick="javascript:window.location.href='<?php echo base_url(); ?>LanguageSwitcher/switchLang/spanish';" href="#">
+							<?php if($this->session->userdata('site_lang') == 'spanish') echo '<span style="color:#3DAAD6;">Es</span>'; 
+							else echo '<span>Es</span>';?>
+							</a>
+						</div><!-- #top-search end -->
+						
+						<!-- Top Search
+						============================================= -->
+						<div id="top-search">
+							<a onclick="javascript:window.location.href='<?php echo base_url(); ?>LanguageSwitcher/switchLang/english';" href="#">
+							<?php if($this->session->userdata('site_lang') == 'english') echo '<span style="color:#3DAAD6;">En</span>'; 
+							else echo '<span>En</span>';?>
+							</a>
 						</div><!-- #top-search end -->
 
 					</nav><!-- #primary-menu end -->
@@ -151,11 +141,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<section id="page-title" class="page-title-dark">
 
 			<div class="container clearfix">
-				<h1>Contact</h1>
-				<span>Get in Touch with Us</span>
+				<h1><?php echo $this->lang->line('nav_title'); ?></h1>
+				<span><?php echo $this->lang->line('nav_sub_text'); ?></span>
 				<ol class="breadcrumb">
-					<li><a href="#">Home</a></li>
-					<li class="active">Contact</li>
+					<li><a href="inicio"><?php echo $this->lang->line('nav_link'); ?></a></li>
+					<li class="active"><?php echo $this->lang->line('nav_text_route4'); ?></li>
 				</ol>
 			</div>
 
@@ -199,7 +189,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div id="contact-form-overlay-mini" class="clearfix">
 
 					<div class="fancy-title title-dotted-border">
-						<h3>Send us an Email</h3>
+						<h3><?php echo $this->lang->line('form_title'); ?></h3>
 					</div>
 
 					<div class="contact-widget">
@@ -211,23 +201,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/sendemail.php" method="post">
 
 							<div class="col_full">
-								<label for="template-contactform-name">Name <small>*</small></label>
+								<label for="template-contactform-name"><?php echo $this->lang->line('field_name'); ?> <small>*</small></label>
 								<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
 							</div>
 
 							<div class="col_full">
-								<label for="template-contactform-email">Email <small>*</small></label>
+								<label for="template-contactform-email"><?php echo $this->lang->line('field_email'); ?> <small>*</small></label>
 								<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
 							</div>
 
 							<div class="clear"></div>
 
 							<div class="col_full">
-								<label for="template-contactform-phone">Phone</label>
+								<label for="template-contactform-phone"><?php echo $this->lang->line('field_phone'); ?></label>
 								<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
 							</div>
 
-							<div class="col_full">
+							<!--<div class="col_full">
 								<label for="template-contactform-service">Services</label>
 								<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
 									<option value="">-- Select One --</option>
@@ -236,17 +226,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<option value="HTML5 / CSS3">HTML5 / CSS3</option>
 									<option value="Graphic Design">Graphic Design</option>
 								</select>
-							</div>
+							</div>-->
 
 							<div class="clear"></div>
 
 							<div class="col_full">
-								<label for="template-contactform-subject">Subject <small>*</small></label>
+								<label for="template-contactform-subject"><?php echo $this->lang->line('field_subject'); ?> <small>*</small></label>
 								<input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control" />
 							</div>
 
 							<div class="col_full">
-								<label for="template-contactform-message">Message <small>*</small></label>
+								<label for="template-contactform-message"><?php echo $this->lang->line('field_messaje'); ?> <small>*</small></label>
 								<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
 							</div>
 
@@ -255,7 +245,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							</div>
 
 							<div class="col_full">
-								<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
+								<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit"><?php echo $this->lang->line('send_button'); ?></button>
 							</div>
 
 						</form>
@@ -285,21 +275,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 					<div class="col_half">
 						<img src="<?php echo assets_url(); ?>images/footer-logo.png" alt="" class="footer-logo">
-
-						Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.
+						<?php echo $this->lang->line('rights_message'); ?>
 					</div>
 
 					<div class="col_half col_last tright">
 						<div class="copyrights-menu copyright-links fright clearfix">
-							<a href="#">Home</a>/<a href="#">About</a>/<a href="#">Features</a>/<a href="#">Portfolio</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
+							<a href="inicio"><?php echo $this->lang->line('link_home_footer'); ?></a>/<a href="admin_p"><?php echo $this->lang->line('link_mercado_footer'); ?></a>/<a href="soluciones"><?php echo $this->lang->line('link_soluciones_footer'); ?></a>/<a href="contacto"><?php echo $this->lang->line('link_contact_footer'); ?></a>
 						</div>
-						<div class="fright clearfix">
+						<br>
+						<div class="fright clearfix col_last">
 							<a href="#" class="social-icon si-small si-borderless nobottommargin si-facebook">
 								<i class="icon-facebook"></i>
 								<i class="icon-facebook"></i>
 							</a>
 
-							<a href="#" class="social-icon si-small si-borderless nobottommargin si-twitter">
+							<!--<a href="#" class="social-icon si-small si-borderless nobottommargin si-twitter">
 								<i class="icon-twitter"></i>
 								<i class="icon-twitter"></i>
 							</a>
@@ -327,7 +317,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<a href="#" class="social-icon si-small si-borderless nobottommargin si-yahoo">
 								<i class="icon-yahoo"></i>
 								<i class="icon-yahoo"></i>
-							</a>
+							</a>-->
 
 							<a href="#" class="social-icon si-small si-borderless nobottommargin si-linkedin">
 								<i class="icon-linkedin"></i>

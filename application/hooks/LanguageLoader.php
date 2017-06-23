@@ -9,10 +9,12 @@ class LanguageLoader
         if ($siteLang) {
             $ci->lang->load('message',$siteLang);
             $ci->lang->load('header',$siteLang);
+            $ci->lang->load('contact',$siteLang);
             $ci->lang->load('footer',$siteLang);
         } else {
             $ci->lang->load('message','english');
             $ci->lang->load('header','english');
+            $ci->lang->load('contact','english');
             $ci->lang->load('footer','english');
         }
     }

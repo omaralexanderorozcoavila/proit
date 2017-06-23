@@ -200,9 +200,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 					<div class="col_half col_last tright">
 						<div class="copyrights-menu copyright-links fright clearfix">
-							<a href="#"><?php echo $this->lang->line('link_home_footer'); ?></a>/<a href="#"><?php echo $this->lang->line('link_mercado_footer'); ?></a>/<a href="#"><?php echo $this->lang->line('link_soluciones_footer'); ?></a>/<a href="#"><?php echo $this->lang->line('link_contact_footer'); ?></a>
+							<a href="inicio"><?php echo $this->lang->line('link_home_footer'); ?></a>/<a href="admin_p"><?php echo $this->lang->line('link_mercado_footer'); ?></a>/<a href="soluciones"><?php echo $this->lang->line('link_soluciones_footer'); ?></a>/<a href="contacto"><?php echo $this->lang->line('link_contact_footer'); ?></a>
 						</div>
-						<div class="fright clearfix">
+						<br>
+						<div class="fright clearfix col_last">
 							<a href="#" class="social-icon si-small si-borderless nobottommargin si-facebook">
 								<i class="icon-facebook"></i>
 								<i class="icon-facebook"></i>
