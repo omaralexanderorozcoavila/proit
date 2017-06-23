@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<!-- Document Title
 	============================================= -->
-	<title>Home - Full Screen Image | Canvas</title>
+	<title>PROIT technologies</title>
 
 </head>
 
@@ -55,7 +55,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<nav id="primary-menu" class="sub-title">
 
 						<ul>
-							<li class="current"><a href="inicio"><div><?php echo $this->lang->line('link_home'); ?></div><span><?php echo $this->lang->line('sub_text_link_home'); ?></span></a>
+							<li><a href="inicio"><div><?php echo $this->lang->line('link_home'); ?></div><span><?php echo $this->lang->line('sub_text_link_home'); ?></span></a>
 								<ul>
 									<li><a href="nosotros"><div><?php echo $this->lang->line('link_nosotros'); ?></div></a></li>
 								</ul>
@@ -75,7 +75,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<li><a href="ciudades_i"><div><?php echo $this->lang->line('link_ciudades'); ?></div></a></li>
 								</ul>
 							</li>
-							<li><a href="#"><div><?php echo $this->lang->line('link_soluciones'); ?></div><span><?php echo $this->lang->line('sub_text_link_soluciones'); ?></span></a>
+							<li class="current"><a href="#"><div><?php echo $this->lang->line('link_soluciones'); ?></div><span><?php echo $this->lang->line('sub_text_link_soluciones'); ?></span></a>
 								<ul>
 									<li><a href="soluciones"><div><?php echo $this->lang->line('link_soluciones_n'); ?></div></a></li>
 									<li><a href="intraestructura"><div><?php echo $this->lang->line('link_infraestructura'); ?></div></a></li>
@@ -141,12 +141,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo assets_url(); ?>images/about/parallax.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3">
 
 			<div class="container clearfix">
-				<h1>Job Openings</h1>
-				<span>Join our Fabulous Team of Intelligent Individuals</span>
+				<h1>Gestión de Servicios</h1>
+				<span></span>
 				<ol class="breadcrumb">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Pages</a></li>
-					<li class="active">Jobs</li>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Soluciones</a></li>
+					<li class="active">estión de Servicios</li>
 				</ol>
 			</div>
 
@@ -156,66 +156,76 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		============================================= -->
 		<section id="content">
 
-			<div class="content-wrap">
-
-				<div class="section header-stick dark">
-					<div class="container clearfix">
-						<div class="row">
-
-							<div class="col-md-9">
-								<div class="heading-block bottommargin-sm">
-									<h3>We specialize in Robust Software Solutions</h3>
-								</div>
-
-								<p class="nobottommargin">Lasting change, stakeholders development Angelina Jolie world problem solving progressive. Courageous; social entrepreneurship change; accelerate resolve pursue these aspirations asylum.</p>
-							</div>
-
-							<!--<div class="col-md-3">
-								<a href="#" class="button button-3d button-dark button-large btn-block center" style="margin-top: 30px;">Check our Services</a>
-							</div>-->
-
-						</div>
-					</div>
-				</div>
-				
+			<div class="section header-stick dark">
 				<div class="container clearfix">
+					<div class="row">
 
-					<div class="col_half topmargin-sm bottommargin">
-						<img data-animate="fadeInLeftBig" src="<?php echo assets_url(); ?>images/services/imac.png" alt="Imac">
-					</div>
-
-					<div class="col_half col_last topmargin-sm bottommargin-lg col_last">
-
-						<div class="heading-block topmargin">
-							<h2>Retina Device Ready.</h2>
-							<span>Fabulously Sharp &amp; Intuitive on your HD Devices.</span>
+						<div class="col-md-9">
+							<div class="heading-block bottommargin-sm">
+								<h3>Gestión global de servicios de TI, optimización y valorización de activos.</h3>
+							</div>
 						</div>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus deserunt, nobis quae eos provident quidem. Quaerat expedita dignissimos perferendis, nihil quo distinctio eius architecto reprehenderit maiores.</p>
-
-						<a href="#" class="button button-border button-rounded button-large noleftmargin topmargin-sm">Experience More</a>
+						<!--<div class="col-md-3">
+							<a href="#" class="button button-3d button-dark button-large btn-block center" style="margin-top: 30px;">Check our Services</a>
+						</div>-->
 
 					</div>
+				</div>
+			</div>
+			
+			<div class="container clearfix">
 
-					<div class="line"></div>
+				<div class="col_half topmargin-sm bottommargin">
+					<img data-animate="fadeInLeftBig" src="<?php echo assets_url(); ?>images/services/imac.png" alt="Imac">
+				</div>
+
+				<div class="col_half col_last topmargin-sm bottommargin-lg col_last">
+
+					<div class="heading-block topmargin">
+						<h2>Especialistas en:</h2>
+						<span></span>
+					</div>
+					
+					<ul class="iconlist iconlist-large iconlist-color">
+						<li><i class="icon-ok-sign"></i> Análisis As-Is e Informes de Gap Analysis</li>
+						<li><i class="icon-ok-sign"></i> Costeo de Servicios de TI</li>
+						<li><i class="icon-ok-sign"></i> Gestión de incidentes y solicitudes de servicio</li>
+						<li><i class="icon-ok-sign"></i> Mantenimiento Preventivo y Predictivo (con IOT)</li>
+						<li><i class="icon-ok-sign"></i> Gestión controlada de cambios</li>
+						<li><i class="icon-ok-sign"></i> Servicios Gestionados</li>
+						<li><i class="icon-ok-sign"></i> Gestión y Operación de IT</li>
+						<li><i class="icon-ok-sign"></i> Modelos de Gobierno</li>
+						<li><i class="icon-ok-sign"></i> Gestión de Servicios</li>
+						<li><i class="icon-ok-sign"></i> Procesos ITIL, ISO20000 y COBIT</li>
+						<li><i class="icon-ok-sign"></i> Análisis As-Is y Informes de Gap Analysis</li>
+					</ul>
+
+					<p>El panorama de las TI es cada vez más complejo, virtualizado, distribuido y diversificado. La velocidad del cambio impulsada por Cloud, Mobile y Social es desafiante.</p>
+					
+					<p>Si sumamos a esta realidad el aumento del número de usuarios no técnicos que accede a los servicios de TI y la reorganización para realidades de Servicios Compartidos, obtenemos equipos de TI sobrecargados, a veces desarticulados y con innumerables soluciones y procesos no integrados para soportar.</p>
+
+					<!--<a href="#" class="button button-border button-rounded button-large noleftmargin topmargin-sm">Experience More</a>-->
 
 				</div>
-				
-				<div class="container">
 
-					<div class="col_half">
-						<h5>Half Width</h5>
-						Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
-					</div>
-
-					<div class="col_half col_last">
-						<h5>Half Width (Last)</h5>
-						Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
-					</div>
-
-				</div>
+				<!--<div class="line"></div>-->
 
 			</div>
+			
+			<!--<div class="container">
+
+				<div class="col_half">
+					<h5>Half Width</h5>
+					Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
+				</div>
+
+				<div class="col_half col_last">
+					<h5>Half Width (Last)</h5>
+					Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
+				</div>
+
+			</div>-->
 
 		</section><!-- #content end -->
 		
@@ -224,12 +234,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<section id="page-title" class="page-title-dark">
 			<div class="container clearfix">
 				<div class="col_half topmargin nobottommargin dark">
+					<div class="heading-block topmargin">
+						<h3>¡Tenemos las herramientas y la experiencia necesarias para ayudarle!</h3>
+						<span></span>
+					</div>
 
-					<h3>Short Overview.</h3>
+					<p>Añade valor, proporcionando soluciones de servicios de IT, y satisfacer las necesidades específicas de cada cliente en alineación con los más altos estándares de calidad, disponibilidad y desarrollo tecnológico de acuerdo con los requisitos de la norma de referencia ISO 20000-1: 2005,nuestra misión fundamental.</p>
+					
+					<p>Las soluciones de gestión de servicios de COMPTA representan un paso revolucionario en la gestión global de servicios de TI, optimizando y valorando los activos de TI, alineados con la gestión del ciclo de vida con las necesidades y la evolución de su negocio.</p>
+					
+					<p>PROIT Technologies en alianza con COMPTA cuenta con un equipo de ITSM certificado en ITIL V3 e ISO20000, con amplia experiencia en implementaciones de modelos, procesos y soluciones de gestión de servicios de IT en los principales mercados: banca, transportes, telecomunicaciones, sector público, utilidades, salud, distribución alimentaria, gestión aeroportuaria.
+¡Estamos enfocados en la solución!</p>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, quos, facilis esse rem dicta dignissimos eligendi earum sapiente ipsam iure vel deserunt.</p>
-
-					<div class="divider divider-short"><i class="icon-circle"></i></div>
+					<!--<div class="divider divider-short"><i class="icon-circle"></i></div>
 
 					<ul class="iconlist iconlist-large iconlist-color">
 						<li><i class="icon-ok-sign"></i> Interactive Live Builder</li>
@@ -238,7 +255,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<li><i class="icon-ok-sign"></i> Responsive &amp; Retina Devices Support</li>
 						<li><i class="icon-ok-sign"></i> Easy Embeddable Media &amp; Graphics</li>
 						<li><i class="icon-ok-sign"></i> Lifetime <strong>FREE</strong> Updates</li>
-					</ul>
+					</ul>-->
 
 				</div>
 
@@ -255,14 +272,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<section id="page-title" class="page-title-dark">
 			<a class="button button-full center tright footer-stick">
 				<div class="container clearfix">
-					Canvas comes with Unlimited Customizations &amp; Options. <strong>Check Out</strong> <i class="icon-caret-right" style="top:4px;"></i>
+					¡Estamos enfocados a dar soluciones! <strong>Contáctenos</strong> <i class="icon-caret-right" style="top:4px;"></i>
 				</div>
 			</a>
 		</section><!-- #page-title end -->
 		
 		<!-- Page Title
 		============================================= -->
-		<section id="page-title" class="page-title-dark">
+		<!--<section id="page-title" class="page-title-dark">
 			<div class="container clearfix">
 
 				<div class="col_one_third dark">
@@ -360,7 +377,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 
 			</div>
-		</section><!-- #page-title end -->
+		</section>--><!-- #page-title end -->
 
 		<!-- Footer
 		============================================= -->

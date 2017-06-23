@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<!-- Document Title
 	============================================= -->
-	<title>Home - Full Screen Image | Canvas</title>
+	<title>PROIT technologies</title>
 
 </head>
 
@@ -55,7 +55,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<nav id="primary-menu" class="sub-title">
 
 						<ul>
-							<li class="current"><a href="inicio"><div><?php echo $this->lang->line('link_home'); ?></div><span><?php echo $this->lang->line('sub_text_link_home'); ?></span></a>
+							<li><a href="inicio"><div><?php echo $this->lang->line('link_home'); ?></div><span><?php echo $this->lang->line('sub_text_link_home'); ?></span></a>
 								<ul>
 									<li><a href="nosotros"><div><?php echo $this->lang->line('link_nosotros'); ?></div></a></li>
 								</ul>
@@ -75,7 +75,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<li><a href="ciudades_i"><div><?php echo $this->lang->line('link_ciudades'); ?></div></a></li>
 								</ul>
 							</li>
-							<li><a href="#"><div><?php echo $this->lang->line('link_soluciones'); ?></div><span><?php echo $this->lang->line('sub_text_link_soluciones'); ?></span></a>
+							<li class="current"><a href="#"><div><?php echo $this->lang->line('link_soluciones'); ?></div><span><?php echo $this->lang->line('sub_text_link_soluciones'); ?></span></a>
 								<ul>
 									<li><a href="soluciones"><div><?php echo $this->lang->line('link_soluciones_n'); ?></div></a></li>
 									<li><a href="intraestructura"><div><?php echo $this->lang->line('link_infraestructura'); ?></div></a></li>
@@ -141,12 +141,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo assets_url(); ?>images/about/parallax.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3">
 
 			<div class="container clearfix">
-				<h1>Job Openings</h1>
-				<span>Join our Fabulous Team of Intelligent Individuals</span>
+				<h1>Productos COMPTA</h1>
+				<span></span>
 				<ol class="breadcrumb">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Pages</a></li>
-					<li class="active">Jobs</li>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Soluciones</a></li>
+					<li class="active">Productos COMPTA</li>
 				</ol>
 			</div>
 
@@ -156,66 +156,64 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		============================================= -->
 		<section id="content">
 
-			<div class="content-wrap">
+			<div class="section header-stick dark">
+				<div class="container clearfix">
+					<div class="row">
 
-				<div class="section header-stick dark">
-					<div class="container clearfix">
-						<div class="row">
-
-							<div class="col-md-9">
-								<div class="heading-block bottommargin-sm">
-									<h3>We specialize in Robust Software Solutions</h3>
-								</div>
-
-								<p class="nobottommargin">Lasting change, stakeholders development Angelina Jolie world problem solving progressive. Courageous; social entrepreneurship change; accelerate resolve pursue these aspirations asylum.</p>
+						<div class="col-md-9">
+							<div class="heading-block bottommargin-sm">
+								<h3>Una visión vertical de su actividad</h3>
 							</div>
 
-							<!--<div class="col-md-3">
-								<a href="#" class="button button-3d button-dark button-large btn-block center" style="margin-top: 30px;">Check our Services</a>
-							</div>-->
-
-						</div>
-					</div>
-				</div>
-				
-				<div class="container clearfix">
-
-					<div class="col_half topmargin-sm bottommargin">
-						<img data-animate="fadeInLeftBig" src="<?php echo assets_url(); ?>images/services/imac.png" alt="Imac">
-					</div>
-
-					<div class="col_half col_last topmargin-sm bottommargin-lg col_last">
-
-						<div class="heading-block topmargin">
-							<h2>Retina Device Ready.</h2>
-							<span>Fabulously Sharp &amp; Intuitive on your HD Devices.</span>
+							<p class="nobottommargin">Especialmente construida para abordar necesidades en los sectores de la energía, medio ambiente, logística, agricultura y mar.</p>
 						</div>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus deserunt, nobis quae eos provident quidem. Quaerat expedita dignissimos perferendis, nihil quo distinctio eius architecto reprehenderit maiores.</p>
-
-						<a href="#" class="button button-border button-rounded button-large noleftmargin topmargin-sm">Experience More</a>
+						<!--<div class="col-md-3">
+							<a href="#" class="button button-3d button-dark button-large btn-block center" style="margin-top: 30px;">Check our Services</a>
+						</div>-->
 
 					</div>
+				</div>
+			</div>
+			
+			<div class="container clearfix">
 
-					<div class="line"></div>
+				<div class="col_half topmargin-sm bottommargin">
+					<img data-animate="fadeInLeftBig" src="<?php echo assets_url(); ?>images/services/imac.png" alt="Imac">
+				</div>
+
+				<div class="col_half col_last topmargin-sm bottommargin-lg col_last">
+
+					<div class="heading-block topmargin">
+						<h2>SU NEGOCIO ¿ESTÁ PREPARADO?</h2>
+						<span></span>
+					</div>
+
+					<p>Sabemos que es fundamental proporcionar respuestas verticales, según el sector de mercado, por lo que entendemos nuestra apuesta por la innovación y la capacidad de producción de productos propios.</p>
+					
+					<p>Con 4 centros de competencias e I + D (Lisboa, Oporto, Abrantes y Évora) y un equipo dedicado, COMPTA EMERGING BUSINESS, es responsable de la concepción y el desarrollo de soluciones innovadoras del Grupo COMPTA, especialmente talladas para abordar necesidades en los sectores de la energía, logística, agricultura y mar.</p>
+
+					<!--<a href="#" class="button button-border button-rounded button-large noleftmargin topmargin-sm">Experience More</a>-->
 
 				</div>
-				
-				<div class="container">
 
-					<div class="col_half">
-						<h5>Half Width</h5>
-						Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
-					</div>
-
-					<div class="col_half col_last">
-						<h5>Half Width (Last)</h5>
-						Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
-					</div>
-
-				</div>
+				<!--<div class="line"></div>-->
 
 			</div>
+			
+			<!--<div class="container">
+
+				<div class="col_half">
+					<h5>Half Width</h5>
+					Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
+				</div>
+
+				<div class="col_half col_last">
+					<h5>Half Width (Last)</h5>
+					Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
+				</div>
+
+			</div>-->
 
 		</section><!-- #content end -->
 		
@@ -224,12 +222,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<section id="page-title" class="page-title-dark">
 			<div class="container clearfix">
 				<div class="col_half topmargin nobottommargin dark">
+					<div class="heading-block topmargin">
+						<h3>TENEMOS LA VISIÓN Y EXPERIENCIA</h3>
+						<span>En conjunto, podemos desarrollar su actividad con estas nuevas herramientas digitales, presentes en el siglo XXI.</span>
+					</div>
+					
+					<strong>Bee2Energy</strong>
+					<p>Reducir y optimizar consumos energéticos a través de un conjunto de aplicaciones y sensores, perfectamente integrados en un producto de fácil uso y máximo retorno.</p>
+					<strong>Cargo eBusiness</strong>
+					<p>Gestión Integrada de operaciones para terminales de contenedores marítimos o terrestres. Una interfaz global diseñada para la gestión de movimientos y cargas en terminales modernos.</p>
+					<strong>Bee2Fleet</strong>
+					<p>Gestión profesional de flotas y de todos los procesos asociados al mantenimiento, localización, operación, consumos, abastecimiento y gestión de equipos de operadores o usuarios.</p>
+					<strong>Bee2Crop</strong>
+					<p>Sistema de control y alarma para explotaciones agrícolas, con control y actuación remota de dispositivos de riego, pivotes y otros sensores de terreno.</p>
+					<strong>Bee2Waste - PAYT Ready</strong>
+					<p>Premiada por los Green Projetct Awards, realiza la Gestión total de todos los recursos relacionados con las recolección de residuos, urbanos e industriales.</p>
+					<strong>Bee2Train</strong>
+					<p>Gestión para el transporte multimodal y ferroviario. Proporciona una visión integrada y única de las operaciones logísticas, de las planificaciones, rutas y gestión de equipos.</p>
+					<strong>Prodfarmer</strong>
+					<p>Portal online de compra y venta de productos agrícolas para consumidores y gestión, venta y control agrícola para productores.</p>
+					<strong>Bee2Weather</strong>
+					<p>Sistema de decisión dirigido a actividades basadas en parámetros meteorológicos.</p>
+					
+					<p>¡Estamos enfocados en la solución!</p>
 
-					<h3>Short Overview.</h3>
-
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, quos, facilis esse rem dicta dignissimos eligendi earum sapiente ipsam iure vel deserunt.</p>
-
-					<div class="divider divider-short"><i class="icon-circle"></i></div>
+					<!--<div class="divider divider-short"><i class="icon-circle"></i></div>
 
 					<ul class="iconlist iconlist-large iconlist-color">
 						<li><i class="icon-ok-sign"></i> Interactive Live Builder</li>
@@ -238,7 +255,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<li><i class="icon-ok-sign"></i> Responsive &amp; Retina Devices Support</li>
 						<li><i class="icon-ok-sign"></i> Easy Embeddable Media &amp; Graphics</li>
 						<li><i class="icon-ok-sign"></i> Lifetime <strong>FREE</strong> Updates</li>
-					</ul>
+					</ul>-->
 
 				</div>
 
@@ -262,7 +279,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		
 		<!-- Page Title
 		============================================= -->
-		<section id="page-title" class="page-title-dark">
+		<!--<section id="page-title" class="page-title-dark">
 			<div class="container clearfix">
 
 				<div class="col_one_third dark">
@@ -360,7 +377,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 
 			</div>
-		</section><!-- #page-title end -->
+		</section>--><!-- #page-title end -->
 
 		<!-- Footer
 		============================================= -->

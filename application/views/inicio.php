@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<!-- Document Title
 	============================================= -->
-	<title>Home - Full Screen Image | Canvas</title>
+	<title>PROIT technologies</title>
 
 </head>
 
@@ -142,37 +142,51 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 				<div class="swiper-container swiper-parent">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide dark" style="background-image: url('<?php echo assets_url(); ?>images/slider/swiper/1.jpg');">
+						
+						<div class="swiper-slide dark">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
-									<h2 data-caption-animate="fadeInUp">Welcome to Canvas</h2>
-									<p data-caption-animate="fadeInUp" data-caption-delay="200">Create just what you need for your Perfect Website. Choose from a wide range of Elements &amp; simply put them on our Canvas.</p>
+									<h2 data-caption-animate="fadeInUp">Sumamos Innovaciones a su Empresa.</h2>
+									<p data-caption-animate="fadeInUp" data-caption-delay="200">Tenemos una visión a 360º de las infraestructuras de IT, los recursos y la experiencia necesaria para transformar su negocio.</p>
 								</div>
+							</div>
+							<div class="video-wrap">
+								<video poster="<?php echo assets_url(); ?>images/videos/explore.jpg" preload="auto" loop autoplay muted>
+									<source src='<?php echo assets_url(); ?>images/videos/explore3.mp4' type='video/mp4' />
+								</video>
+								<div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
 							</div>
 						</div>
 						<div class="swiper-slide dark">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
-									<h2 data-caption-animate="fadeInUp">Beautifully Flexible</h2>
-									<p data-caption-animate="fadeInUp" data-caption-delay="200">Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Powerful Layout with Responsive functionality that can be adapted to any screen size.</p>
+									<h2 data-caption-animate="fadeInUp">¡Soluciones Innovadoras para Conquistar, Retener y Fidelizar Clientes!</h2>
+									<p data-caption-animate="fadeInUp" data-caption-delay="200">Nuestra mentalidad es apoyada por el conjunto de herramientas que nos da una nueva y poderosa manera de encontrar soluciones, desbloqueando el potencial de los recursos humanos de las empresas.</p>
+								</div>
+							</div>
+							<div class="video-wrap">
+								<video poster="<?php echo assets_url(); ?>images/videos/explore.jpg" preload="auto" loop autoplay muted>
+									<source src='<?php echo assets_url(); ?>images/videos/explore2.mp4' type='video/mp4' />
+								</video>
+								<div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
+							</div>
+						</div>						
+						<div class="swiper-slide dark">
+							<div class="container clearfix">
+								<div class="slider-caption slider-caption-center">
+									<h2 data-caption-animate="fadeInUp">TIRE EL MÁXIMO PARTIDO DE SUS INFRAESTRUCTURAS</h2>
+									<p data-caption-animate="fadeInUp" data-caption-delay="200">¿Está preparado para la digitalización de su negocio? ¿En qué etapa está? ¿Están sus datos seguros y su infraestructura para responder de acuerdo con las necesidades de sus usuarios y clientes?</p>
 								</div>
 							</div>
 							<div class="video-wrap">
 								<video poster="<?php echo assets_url(); ?>images/videos/explore.jpg" preload="auto" loop autoplay muted>
 									<source src='<?php echo assets_url(); ?>images/videos/explore.mp4' type='video/mp4' />
-									<source src='<?php echo assets_url(); ?>images/videos/explore.webm' type='video/webm' />
 								</video>
 								<div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
 							</div>
 						</div>
-						<div class="swiper-slide" style="background-image: url('<?php echo assets_url(); ?>images/slider/swiper/3.jpg'); background-position: center top;">
-							<div class="container clearfix">
-								<div class="slider-caption">
-									<h2 data-caption-animate="fadeInUp">Great Performance</h2>
-									<p data-caption-animate="fadeInUp" data-caption-delay="200">You'll be surprised to see the Final Results of your Creation &amp; would crave for more.</p>
-								</div>
-							</div>
-						</div>
+
+
 					</div>
 					<div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
 					<div id="slider-arrow-right"><i class="icon-angle-right"></i></div>

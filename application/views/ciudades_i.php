@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<!-- Document Title
 	============================================= -->
-	<title>Home - Full Screen Image | Canvas</title>
+	<title>PROIT technologies</title>
 
 </head>
 
@@ -55,12 +55,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<nav id="primary-menu" class="sub-title">
 
 						<ul>
-							<li class="current"><a href="inicio"><div><?php echo $this->lang->line('link_home'); ?></div><span><?php echo $this->lang->line('sub_text_link_home'); ?></span></a>
+							<li><a href="inicio"><div><?php echo $this->lang->line('link_home'); ?></div><span><?php echo $this->lang->line('sub_text_link_home'); ?></span></a>
 								<ul>
 									<li><a href="nosotros"><div><?php echo $this->lang->line('link_nosotros'); ?></div></a></li>
 								</ul>
 							</li>
-							<li><a href="#"><div><?php echo $this->lang->line('link_mercados'); ?></div><span><?php echo $this->lang->line('sub_text_link_mercados'); ?></span></a>
+							<li class="current"><a href="#"><div><?php echo $this->lang->line('link_mercados'); ?></div><span><?php echo $this->lang->line('sub_text_link_mercados'); ?></span></a>
 								<ul>
 									<li><a href="admin_p"><div><?php echo $this->lang->line('link_admin'); ?></div></a></li>
 									<li><a href="ambiente"><div><?php echo $this->lang->line('link_ambiente'); ?></div></a></li>
@@ -138,15 +138,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<!-- Page Title
 		============================================= -->
-		<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo assets_url(); ?>images/about/parallax.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3">
+		<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo assets_url(); ?>images/banner/banner-smartcities.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3">
 
 			<div class="container clearfix">
-				<h1>Job Openings</h1>
-				<span>Join our Fabulous Team of Intelligent Individuals</span>
+				<h1>Ciudades Inteligentes e IOT</h1>
+				<span></span>
 				<ol class="breadcrumb">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Pages</a></li>
-					<li class="active">Jobs</li>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Mercados</a></li>
+					<li class="active">Ciudades Inteligentes e IOT</li>
 				</ol>
 			</div>
 
@@ -156,66 +156,68 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		============================================= -->
 		<section id="content">
 
-			<div class="content-wrap">
+			<div class="section header-stick dark">
+				<div class="container clearfix">
+					<div class="row">
 
-				<div class="section header-stick dark">
-					<div class="container clearfix">
-						<div class="row">
-
-							<div class="col-md-9">
-								<div class="heading-block bottommargin-sm">
-									<h3>We specialize in Robust Software Solutions</h3>
-								</div>
-
-								<p class="nobottommargin">Lasting change, stakeholders development Angelina Jolie world problem solving progressive. Courageous; social entrepreneurship change; accelerate resolve pursue these aspirations asylum.</p>
+						<div class="col-md-9">
+							<div class="heading-block bottommargin-sm">
+								<h3></h3>
 							</div>
 
-							<!--<div class="col-md-3">
-								<a href="#" class="button button-3d button-dark button-large btn-block center" style="margin-top: 30px;">Check our Services</a>
-							</div>-->
-
-						</div>
-					</div>
-				</div>
-				
-				<div class="container clearfix">
-
-					<div class="col_half topmargin-sm bottommargin">
-						<img data-animate="fadeInLeftBig" src="<?php echo assets_url(); ?>images/services/imac.png" alt="Imac">
-					</div>
-
-					<div class="col_half col_last topmargin-sm bottommargin-lg col_last">
-
-						<div class="heading-block topmargin">
-							<h2>Retina Device Ready.</h2>
-							<span>Fabulously Sharp &amp; Intuitive on your HD Devices.</span>
+							<p class="nobottommargin">Las ciudades son sistemas cada vez más complejos, multidisciplinarias e inherentemente más conectadas. La forma en que la gestión de las ciudades se realiza dicta su calidad y condiciona positiva o negativamente su atractivo y crecimiento.</p>
 						</div>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus deserunt, nobis quae eos provident quidem. Quaerat expedita dignissimos perferendis, nihil quo distinctio eius architecto reprehenderit maiores.</p>
-
-						<a href="#" class="button button-border button-rounded button-large noleftmargin topmargin-sm">Experience More</a>
+						<!--<div class="col-md-3">
+							<a href="#" class="button button-3d button-dark button-large btn-block center" style="margin-top: 30px;">Check our Services</a>
+						</div>-->
 
 					</div>
+				</div>
+			</div>
+			
+			<div class="container clearfix">
 
-					<div class="line"></div>
+				<div class="col_half topmargin-sm bottommargin">
+					<img data-animate="fadeInLeftBig" src="<?php echo assets_url(); ?>images/contenido/cidades-1.png" alt="Imac">
+				</div>
+
+				<div class="col_half col_last topmargin-sm bottommargin-lg col_last">
+
+					<div class="heading-block topmargin">
+						<h2>Ciudades Inteligentes e IOT – CIUDADES 4.0</h2>
+						<span>LAS NUEVAS CIUDADES INTELIGENTES</span>
+					</div>
+
+					<p>El cambio en la gobernanza y gestión de las ciudades modernas debe surgir en otras revoluciones, como por ejemplo la que estamos viendo en la industria o la cuarta revolución industrial, donde las tecnologías, la automatización, el Big Data, la interconexión entre sistemas físicos y lógicos, el Internet de las Cosas y la Computación en Nube asumen un papel fundamental en el cambio y su transformación cotidiana.</p>
+					
+					<p>Estamos ante un nuevo paradigma en el que la tecnología en las ciudades deja de ser un "nice to have" para ser un "need to have".</p>
+					
+					<p>Esta es una visión que ha sido uno de los mayores controladores en la estrategia que el Grupo COMPTA tiene para este campo.</p>
+					
+					<p>Presentamos una visión ampliada, multifacética e interconectada de soluciones, que confluyen en un sistema modelado integrado según las necesidades, para facilitar procesos engorrorosos y convertirlos en procesos fáciles y sencillos de realizar.</p>
+
+					<!--<a href="#" class="button button-border button-rounded button-large noleftmargin topmargin-sm">Experience More</a>-->
 
 				</div>
-				
-				<div class="container">
 
-					<div class="col_half">
-						<h5>Half Width</h5>
-						Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
-					</div>
-
-					<div class="col_half col_last">
-						<h5>Half Width (Last)</h5>
-						Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
-					</div>
-
-				</div>
+				<!--<div class="line"></div>-->
 
 			</div>
+			
+			<!--<div class="container">
+
+				<div class="col_half">
+					<h5>Half Width</h5>
+					Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
+				</div>
+
+				<div class="col_half col_last">
+					<h5>Half Width (Last)</h5>
+					Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
+				</div>
+
+			</div>-->
 
 		</section><!-- #content end -->
 		
@@ -224,27 +226,36 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<section id="page-title" class="page-title-dark">
 			<div class="container clearfix">
 				<div class="col_half topmargin nobottommargin dark">
+					<div class="heading-block topmargin">
+						<h3>TENEMOS VISIÓN Y EXPERIENCIA</h3>
+						<span>No se imaginan ciudades sin poblaciones, sin vida. Así, el ciudadano es la prioridad y debe ser el epicentro de la gestión de la Ciudad, del sistema, de la sociedad en conjunto.</span>
+					</div>
 
-					<h3>Short Overview.</h3>
-
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, quos, facilis esse rem dicta dignissimos eligendi earum sapiente ipsam iure vel deserunt.</p>
+					<p>Una Plataforma que integra diversas áreas:</p>
 
 					<div class="divider divider-short"><i class="icon-circle"></i></div>
 
 					<ul class="iconlist iconlist-large iconlist-color">
-						<li><i class="icon-ok-sign"></i> Interactive Live Builder</li>
-						<li><i class="icon-ok-sign"></i> Valid HTML5 &amp; CSS3 Semantics</li>
-						<li><i class="icon-ok-sign"></i> 100% Open Source &amp; Customizable</li>
-						<li><i class="icon-ok-sign"></i> Responsive &amp; Retina Devices Support</li>
-						<li><i class="icon-ok-sign"></i> Easy Embeddable Media &amp; Graphics</li>
-						<li><i class="icon-ok-sign"></i> Lifetime <strong>FREE</strong> Updates</li>
+						<li><i class="icon-ok-sign"></i> Gestión Energética y de Consumos de Agua</li>
+						<li><i class="icon-ok-sign"></i> Iluminación pública</li>
+						<li><i class="icon-ok-sign"></i> Gestión de Residuos</li>
+						<li><i class="icon-ok-sign"></i> Interacción con el ciudadano</li>
+						<li><i class="icon-ok-sign"></i> Comercio Justo</li>
+						<li><i class="icon-ok-sign"></i> Gestión de riego y espacios verdes</li>
+						<li><i class="icon-ok-sign"></i> Video Vigilancia</li>
+						<li><i class="icon-ok-sign"></i> Transporte, Movilidad y Monitoreo Centralizado</li>
+						<li><i class="icon-ok-sign"></i> Inclusión Social</li>
 					</ul>
+					
+					<div class="divider divider-short"><i class="icon-circle"></i></div>
+					
+					<p>Esta visión de gestión, innovadora y con ojos puestos en el futuro, valoriza los activos al disponer de la gestión de la autarquía y potencia sus recursos en el sentido de su mejor eficiencia, mayor facilidad de gestión, actuación sobre los medios, contacto con las poblaciones y Ahorro de erario público.</p>
 
 				</div>
 
 				<div class="col_half col_last topmargin nobottommargin">
 
-					<img src="<?php echo assets_url(); ?>images/icons/macbook.png" alt="Macbook Video Underlay" data-animate="fadeInRightBig">
+					<img src="<?php echo assets_url(); ?>images/contenido/cidades-2.png" alt="Macbook Video Underlay" data-animate="fadeInRightBig">
 
 				</div>
 			</div>
@@ -255,14 +266,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<section id="page-title" class="page-title-dark">
 			<a class="button button-full center tright footer-stick">
 				<div class="container clearfix">
-					Canvas comes with Unlimited Customizations &amp; Options. <strong>Check Out</strong> <i class="icon-caret-right" style="top:4px;"></i>
+					¿Y su organización ya está en el mundo de las Ciudades Inteligentes? <strong>Saber más</strong> <i class="icon-caret-right" style="top:4px;"></i>
 				</div>
 			</a>
 		</section><!-- #page-title end -->
 		
 		<!-- Page Title
 		============================================= -->
-		<section id="page-title" class="page-title-dark">
+		<!--<section id="page-title" class="page-title-dark">
 			<div class="container clearfix">
 
 				<div class="col_one_third dark">
@@ -360,7 +371,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 
 			</div>
-		</section><!-- #page-title end -->
+		</section>--><!-- #page-title end -->
 
 		<!-- Footer
 		============================================= -->

@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<!-- Document Title
 	============================================= -->
-	<title>Home - Full Screen Image | Canvas</title>
+	<title>PROIT technologies</title>
 
 </head>
 
@@ -138,11 +138,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<!-- Page Title
 		============================================= -->
-		<section id="page-title" class="page-title-parallax page-title-dark" style="padding: 250px 0; background-image: url('<?php echo assets_url(); ?>images/about/parallax.jpg'); background-size: cover; background-position: center center;" data-stellar-background-ratio="0.4">
+		<section id="page-title" class="page-title-parallax page-title-dark" style="padding: 250px 0; background-image: url('<?php echo assets_url(); ?>images/banner/banner-nosotros.jpg'); background-size: cover; background-position: center center;" data-stellar-background-ratio="0.4">
 
 			<div class="container clearfix">
 				<h1>About Us</h1>
-				<span>Everything you need to know about our Company</span>
+				<!--<span>Everything you need to know about our Company</span>-->
 				<ol class="breadcrumb">
 					<li><a href="#">Home</a></li>
 					<li><a href="#">Pages</a></li>
@@ -160,39 +160,41 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 				<div class="container clearfix">
 
-					<div class="col_one_third">
+					<div class="col_half">
 
 						<div class="heading-block fancy-title nobottomborder title-bottom-border">
-							<h4>Why choose <span>Us</span>.</h4>
+							<h4>Nuestra <span>Misión</span>.</h4>
 						</div>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
+						<p>En PROIT TECHNOLOGIES, nos especializamos en ofrecerte herramientas digitales que se adapten a sus necesidades, donde su negocio podrá contar con la innovación tecnológica que tanto se hace prioritaria en ésta última década.   Presentamos una gama completa y especializada de productos y servicios que se acomodaran en función al área que su negocio se dedique, impulsando aún más el desempeño de sus actividades comerciales.
+</p>
 
 					</div>
 
-					<div class="col_one_third">
+					<div class="col_half col_last">
 
 						<div class="heading-block fancy-title nobottomborder title-bottom-border">
-							<h4>Our <span>Mission</span>.</h4>
+							<h4>Nuestra <span>Visión</span>.</h4>
 						</div>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
+						<p>Ser la empresa líder en innovaciones tecnológicas, con la finalidad de seleccionar en el mercado mundial las mejores tecnologías que se adapten a su negocio. Y consolidarnos como pioneros en soluciones y respuestas con miras hacia el futuro.</p>
 
 					</div>
 
-					<div class="col_one_third col_last">
+					<div class="col">
 
 						<div class="heading-block fancy-title nobottomborder title-bottom-border">
-							<h4>What we <span>Do</span>.</h4>
+							<h4>PROIT <span>TECHNOLOGIES</span>.</h4>
 						</div>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
+						<p>En PROIT TECHNOLOGIES, somos precursores en el desarrollo exponencial de su empresa, con relación a innovación, modernización tecnológica y digital.   Asimismo, conectamos de manera directa, sencilla y actual a sus clientes con relación a su negocio.    Estamos especializados en acoplarnos a cualquier tipo de área en donde usted requiera nuevas estrategias para el desenvolvimiento y rendimiento de sus actividades. 
+							<br><br> De igual manera, debemos resaltar la importancia de nuestra alianza comercial con la empresa COMPTA, que ocupa una posición envidiable en el mercado de las TI, con 45 años de experiencia acumula más de 400 certificaciones individuales y tiene el más alto nivel de certificación en sus principales socios estratégicos.   De esta manera podemos demostrar el nivel de seriedad, compromiso  y sobre todo responsabilidad que adquirimos con nuestros clientes, colaboradores y asociados.</p>
 
 					</div>
 
 				</div>
 
-				<div class="section nomargin">
+				<!--<div class="section nomargin">
 					<div class="container clearfix">
 
 						<div class="col_one_fourth nobottommargin center" data-animate="bounceIn">
@@ -389,9 +391,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<li><a href="http://logofury.com/"><img src="<?php echo assets_url(); ?>images/clients/12.png" alt="Clients"></a></li>
 					</ul>
 
-				</div>
+				</div>-->
 
-				<div class="section footer-stick">
+				<!--<div class="section footer-stick">
 
 					<h4 class="uppercase center">What <span>Clients</span> Say?</h4>
 
@@ -438,7 +440,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						</div>
 					</div>
 
-				</div>
+				</div>-->
 
 			</div>
 

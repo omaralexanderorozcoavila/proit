@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<!-- Document Title
 	============================================= -->
-	<title>Home - Full Screen Image | Canvas</title>
+	<title>PROIT technologies</title>
 
 </head>
 
@@ -55,12 +55,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<nav id="primary-menu" class="sub-title">
 
 						<ul>
-							<li class="current"><a href="inicio"><div><?php echo $this->lang->line('link_home'); ?></div><span><?php echo $this->lang->line('sub_text_link_home'); ?></span></a>
+							<li><a href="inicio"><div><?php echo $this->lang->line('link_home'); ?></div><span><?php echo $this->lang->line('sub_text_link_home'); ?></span></a>
 								<ul>
 									<li><a href="nosotros"><div><?php echo $this->lang->line('link_nosotros'); ?></div></a></li>
 								</ul>
 							</li>
-							<li><a href="#"><div><?php echo $this->lang->line('link_mercados'); ?></div><span><?php echo $this->lang->line('sub_text_link_mercados'); ?></span></a>
+							<li class="current"><a href="#"><div><?php echo $this->lang->line('link_mercados'); ?></div><span><?php echo $this->lang->line('sub_text_link_mercados'); ?></span></a>
 								<ul>
 									<li><a href="admin_p"><div><?php echo $this->lang->line('link_admin'); ?></div></a></li>
 									<li><a href="ambiente"><div><?php echo $this->lang->line('link_ambiente'); ?></div></a></li>
@@ -138,15 +138,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<!-- Page Title
 		============================================= -->
-		<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo assets_url(); ?>images/about/parallax.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3">
+		<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo assets_url(); ?>images/banner/banner-energia.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3">
 
 			<div class="container clearfix">
-				<h1>Job Openings</h1>
-				<span>Join our Fabulous Team of Intelligent Individuals</span>
+				<h1>Energía</h1>
+				<span></span>
 				<ol class="breadcrumb">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Pages</a></li>
-					<li class="active">Jobs</li>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Mercados</a></li>
+					<li class="active">Energía</li>
 				</ol>
 			</div>
 
@@ -156,66 +156,67 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		============================================= -->
 		<section id="content">
 
-			<div class="content-wrap">
+			<div class="section header-stick dark">
+				<div class="container clearfix">
+					<div class="row">
 
-				<div class="section header-stick dark">
-					<div class="container clearfix">
-						<div class="row">
-
-							<div class="col-md-9">
-								<div class="heading-block bottommargin-sm">
-									<h3>We specialize in Robust Software Solutions</h3>
-								</div>
-
-								<p class="nobottommargin">Lasting change, stakeholders development Angelina Jolie world problem solving progressive. Courageous; social entrepreneurship change; accelerate resolve pursue these aspirations asylum.</p>
+						<div class="col-md-9">
+							<div class="heading-block bottommargin-sm">
+								<h3>Para los productores y distribuidores de energía y consumidores empresariales.</h3>
+								<span></span>
 							</div>
 
-							<!--<div class="col-md-3">
-								<a href="#" class="button button-3d button-dark button-large btn-block center" style="margin-top: 30px;">Check our Services</a>
-							</div>-->
-
-						</div>
-					</div>
-				</div>
-				
-				<div class="container clearfix">
-
-					<div class="col_half topmargin-sm bottommargin">
-						<img data-animate="fadeInLeftBig" src="<?php echo assets_url(); ?>images/services/imac.png" alt="Imac">
-					</div>
-
-					<div class="col_half col_last topmargin-sm bottommargin-lg col_last">
-
-						<div class="heading-block topmargin">
-							<h2>Retina Device Ready.</h2>
-							<span>Fabulously Sharp &amp; Intuitive on your HD Devices.</span>
+							<p class="nobottommargin">La energía, es un recurso estratégico ya que su importancia recae en el crecimiento de la economía, de las infraestructuras críticas nacionales y la sociedad en general.</p>
 						</div>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus deserunt, nobis quae eos provident quidem. Quaerat expedita dignissimos perferendis, nihil quo distinctio eius architecto reprehenderit maiores.</p>
-
-						<a href="#" class="button button-border button-rounded button-large noleftmargin topmargin-sm">Experience More</a>
+						<!--<div class="col-md-3">
+							<a href="#" class="button button-3d button-dark button-large btn-block center" style="margin-top: 30px;">Check our Services</a>
+						</div>-->
 
 					</div>
+				</div>
+			</div>
+			
+			<div class="container clearfix">
 
-					<div class="line"></div>
+				<div class="col_half topmargin-sm bottommargin">
+					<img data-animate="fadeInLeftBig" src="<?php echo assets_url(); ?>images/contenido/energia-1.png" alt="Imac">
+				</div>
+
+				<div class="col_half col_last topmargin-sm bottommargin-lg col_last">
+
+					<div class="heading-block topmargin">
+						<h2>Dos Ejes Fundamentales</h2>
+						<span>En el primer eje, PROIT Technologies y el Grupo COMPTA, se posiciona como un "enabler".</span>
+					</div>
+
+					<p>A través de la experiencia en la transformación digital de procesos y en la capacitación de las infraestructuras, asumimos un compromiso para que esa transformación sea posible.</p>
+					
+					<p>Con especial atención en los sectores relacionados con la disponibilidad de servicios, seguridad, eficiencia operacional y de procesos: PROIT Technologies y el Grupo COMPTA, ha desarrollado la implementación de oferta de soluciones que cubren diversas áreas donde el acceso a los servicios y la experiencia del cliente son nuestra prioridad, implementando estrategias omnichannel.</p>
+					
+					<p>Las operaciones que realizamos son examinadas desde el punto de vista interno y externo, y para cada uno de los casos se implementan soluciones tecnológicas que extraen más valor de los recursos disponibles, entre las áreas de Industria y Servicios.</p>
+
+					<!--<a href="#" class="button button-border button-rounded button-large noleftmargin topmargin-sm">Experience More</a>-->
 
 				</div>
-				
-				<div class="container">
 
-					<div class="col_half">
-						<h5>Half Width</h5>
-						Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
-					</div>
-
-					<div class="col_half col_last">
-						<h5>Half Width (Last)</h5>
-						Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
-					</div>
-
-				</div>
+				<!--<div class="line"></div>-->
 
 			</div>
+			
+			<!--<div class="container">
+
+				<div class="col_half">
+					<h5>Half Width</h5>
+					Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
+				</div>
+
+				<div class="col_half col_last">
+					<h5>Half Width (Last)</h5>
+					Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
+				</div>
+
+			</div>-->
 
 		</section><!-- #content end -->
 		
@@ -224,12 +225,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<section id="page-title" class="page-title-dark">
 			<div class="container clearfix">
 				<div class="col_half topmargin nobottommargin dark">
+					<div class="heading-block topmargin">
+						<h3>TENEMOS LA VISIÓN Y EXPERIENCIA</h3>
+						<span>En conjunto, podemos desarrollar su actividad y prepararla para dichas innovaciones digitales.</span>
+					</div>
 
-					<h3>Short Overview.</h3>
+					<p>En este mismo orden de ideas, PROIT Technologies y el Grupo COMPTA, ofrece un conjunto de productos y servicios que permiten a las organizaciones hacer frente a necesidades sobre la Gestión de Consumos Energéticos.</p>
+					
+					<p>Integrado en una sola solución, Bee2Energy, se encargará de gestionar el conjunto de funcionalidades, especialmente desarrolladas para identificar fuentes de consumo, analizar, tipificar y monitorear en tiempo real su desempeño.</p>
+					
+					<p>Con base en la información recopilada, ofrece herramientas e información que permiten automatizar y actuar en sus perfiles de consumo, optimizando el desempeño con miras a la reducción de la factura energética final.</p>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, quos, facilis esse rem dicta dignissimos eligendi earum sapiente ipsam iure vel deserunt.</p>
-
-					<div class="divider divider-short"><i class="icon-circle"></i></div>
+					<!--<div class="divider divider-short"><i class="icon-circle"></i></div>
 
 					<ul class="iconlist iconlist-large iconlist-color">
 						<li><i class="icon-ok-sign"></i> Interactive Live Builder</li>
@@ -238,13 +245,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<li><i class="icon-ok-sign"></i> Responsive &amp; Retina Devices Support</li>
 						<li><i class="icon-ok-sign"></i> Easy Embeddable Media &amp; Graphics</li>
 						<li><i class="icon-ok-sign"></i> Lifetime <strong>FREE</strong> Updates</li>
-					</ul>
+					</ul>-->
 
 				</div>
 
 				<div class="col_half col_last topmargin nobottommargin">
 
-					<img src="<?php echo assets_url(); ?>images/icons/macbook.png" alt="Macbook Video Underlay" data-animate="fadeInRightBig">
+					<img src="<?php echo assets_url(); ?>images/contenido/energia-2.png" alt="Macbook Video Underlay" data-animate="fadeInRightBig">
 
 				</div>
 			</div>
@@ -255,14 +262,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<section id="page-title" class="page-title-dark">
 			<a class="button button-full center tright footer-stick">
 				<div class="container clearfix">
-					Canvas comes with Unlimited Customizations &amp; Options. <strong>Check Out</strong> <i class="icon-caret-right" style="top:4px;"></i>
+					¡Aumente la Eficiencia Energética de su Negocio! <strong>Saber más</strong> <i class="icon-caret-right" style="top:4px;"></i>
 				</div>
 			</a>
 		</section><!-- #page-title end -->
 		
 		<!-- Page Title
 		============================================= -->
-		<section id="page-title" class="page-title-dark">
+		<!--<section id="page-title" class="page-title-dark">
 			<div class="container clearfix">
 
 				<div class="col_one_third dark">
@@ -360,7 +367,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 
 			</div>
-		</section><!-- #page-title end -->
+		</section>--><!-- #page-title end -->
 
 		<!-- Footer
 		============================================= -->

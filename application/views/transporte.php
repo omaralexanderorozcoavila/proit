@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<!-- Document Title
 	============================================= -->
-	<title>Home - Full Screen Image | Canvas</title>
+	<title>PROIT technologies</title>
 
 </head>
 
@@ -55,12 +55,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<nav id="primary-menu" class="sub-title">
 
 						<ul>
-							<li class="current"><a href="inicio"><div><?php echo $this->lang->line('link_home'); ?></div><span><?php echo $this->lang->line('sub_text_link_home'); ?></span></a>
+							<li><a href="inicio"><div><?php echo $this->lang->line('link_home'); ?></div><span><?php echo $this->lang->line('sub_text_link_home'); ?></span></a>
 								<ul>
 									<li><a href="nosotros"><div><?php echo $this->lang->line('link_nosotros'); ?></div></a></li>
 								</ul>
 							</li>
-							<li><a href="#"><div><?php echo $this->lang->line('link_mercados'); ?></div><span><?php echo $this->lang->line('sub_text_link_mercados'); ?></span></a>
+							<li class="current"><a href="#"><div><?php echo $this->lang->line('link_mercados'); ?></div><span><?php echo $this->lang->line('sub_text_link_mercados'); ?></span></a>
 								<ul>
 									<li><a href="admin_p"><div><?php echo $this->lang->line('link_admin'); ?></div></a></li>
 									<li><a href="ambiente"><div><?php echo $this->lang->line('link_ambiente'); ?></div></a></li>
@@ -138,15 +138,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<!-- Page Title
 		============================================= -->
-		<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo assets_url(); ?>images/about/parallax.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3">
+		<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo assets_url(); ?>images/banner/banner-transportes.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3">
 
 			<div class="container clearfix">
-				<h1>Job Openings</h1>
-				<span>Join our Fabulous Team of Intelligent Individuals</span>
+				<h1>Transportes</h1>
+				<span></span>
 				<ol class="breadcrumb">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Pages</a></li>
-					<li class="active">Jobs</li>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Mercados</a></li>
+					<li class="active">Transportes</li>
 				</ol>
 			</div>
 
@@ -156,66 +156,64 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		============================================= -->
 		<section id="content">
 
-			<div class="content-wrap">
+			<div class="section header-stick dark">
+				<div class="container clearfix">
+					<div class="row">
 
-				<div class="section header-stick dark">
-					<div class="container clearfix">
-						<div class="row">
-
-							<div class="col-md-9">
-								<div class="heading-block bottommargin-sm">
-									<h3>We specialize in Robust Software Solutions</h3>
-								</div>
-
-								<p class="nobottommargin">Lasting change, stakeholders development Angelina Jolie world problem solving progressive. Courageous; social entrepreneurship change; accelerate resolve pursue these aspirations asylum.</p>
+						<div class="col-md-9">
+							<div class="heading-block bottommargin-sm">
+								<h3>PIEZA FUNDAMENTAL</h3>
 							</div>
 
-							<!--<div class="col-md-3">
-								<a href="#" class="button button-3d button-dark button-large btn-block center" style="margin-top: 30px;">Check our Services</a>
-							</div>-->
-
-						</div>
-					</div>
-				</div>
-				
-				<div class="container clearfix">
-
-					<div class="col_half topmargin-sm bottommargin">
-						<img data-animate="fadeInLeftBig" src="<?php echo assets_url(); ?>images/services/imac.png" alt="Imac">
-					</div>
-
-					<div class="col_half col_last topmargin-sm bottommargin-lg col_last">
-
-						<div class="heading-block topmargin">
-							<h2>Retina Device Ready.</h2>
-							<span>Fabulously Sharp &amp; Intuitive on your HD Devices.</span>
+							<p class="nobottommargin">El sector del transporte es el gran responsable de la movilidad de personas y bienes. Es él quien asegura diariamente, en términos mundiales, muchas de las funciones vitales de la sociedad.</p>
 						</div>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus deserunt, nobis quae eos provident quidem. Quaerat expedita dignissimos perferendis, nihil quo distinctio eius architecto reprehenderit maiores.</p>
-
-						<a href="#" class="button button-border button-rounded button-large noleftmargin topmargin-sm">Experience More</a>
+						<!--<div class="col-md-3">
+							<a href="#" class="button button-3d button-dark button-large btn-block center" style="margin-top: 30px;">Check our Services</a>
+						</div>-->
 
 					</div>
+				</div>
+			</div>
+			
+			<div class="container clearfix">
 
-					<div class="line"></div>
+				<div class="col_half topmargin-sm bottommargin">
+					<img data-animate="fadeInLeftBig" src="<?php echo assets_url(); ?>images/contenido/transportes-1.png" alt="Imac">
+				</div>
+
+				<div class="col_half col_last topmargin-sm bottommargin-lg col_last">
+
+					<div class="heading-block topmargin">
+						<h2>El mundo se mueve por la logística</h2>
+						<span></span>
+					</div>
+
+					<p>El transporte de bienes al desplazamiento de personas, este es un sector de vital importancia estratégica. Siendo un sistema global, depende de múltiples mecanismos asegurados por la tecnología.</p>
+					
+					<p>El seguimiento de los vehículos, la señalización de las líneas ferroviarias, pasando por el control del tráfico aéreo y portuario a la vigilancia de líneas y autopistas, la comunicación electrónica y distribución inteligente de tráfico en la gestión de flotas, todas estas funciones necesitan sistemas capaces de respuestas integrales.</p>
+
+					<!--<a href="#" class="button button-border button-rounded button-large noleftmargin topmargin-sm">Experience More</a>-->
 
 				</div>
-				
-				<div class="container">
 
-					<div class="col_half">
-						<h5>Half Width</h5>
-						Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
-					</div>
-
-					<div class="col_half col_last">
-						<h5>Half Width (Last)</h5>
-						Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
-					</div>
-
-				</div>
+				<!--<div class="line"></div>-->
 
 			</div>
+			
+			<!--<div class="container">
+
+				<div class="col_half">
+					<h5>Half Width</h5>
+					Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
+				</div>
+
+				<div class="col_half col_last">
+					<h5>Half Width (Last)</h5>
+					Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
+				</div>
+
+			</div>-->
 
 		</section><!-- #content end -->
 		
@@ -224,12 +222,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<section id="page-title" class="page-title-dark">
 			<div class="container clearfix">
 				<div class="col_half topmargin nobottommargin dark">
+					<div class="heading-block topmargin">
+						<h3>TENEMOS LA VISIÓN Y EXPERIENCIA</h3>
+						<span>¡Logística y tecnología, sabemos cómo maximizar esta relación!</span>
+					</div>
 
-					<h3>Short Overview.</h3>
+					<p>Estamos enfocados en la solución. Queremos oír su desafío, para que podamos dar nuestra mejor respuesta.</p>
+					
+					<p>Tenemos para este sector un entendimiento global, que pasa por proveer no sólo las infraestructuras de TI y las aplicaciones, sino ofrecer una experiencia, conocimientos de otros casos que han tenido éxito. Podemos responder de forma integrada, contando con un rango de prioridad en las tecnologías de última generación basadas en Cloud e interconectando múltiples dispositivos a nuestra plataforma de IOT (Internet Of Things). En donde su mayor ventaja será la rapidez y le permitirá gestionar sus flotas, integrar datos con otros sistemas para localizar sus activos y / o supervisar las entregas de sus pedidos.</p>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, quos, facilis esse rem dicta dignissimos eligendi earum sapiente ipsam iure vel deserunt.</p>
-
-					<div class="divider divider-short"><i class="icon-circle"></i></div>
+					<!--<div class="divider divider-short"><i class="icon-circle"></i></div>
 
 					<ul class="iconlist iconlist-large iconlist-color">
 						<li><i class="icon-ok-sign"></i> Interactive Live Builder</li>
@@ -244,9 +246,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 				<div class="col_half col_last topmargin nobottommargin">
 
-					<img src="<?php echo assets_url(); ?>images/icons/macbook.png" alt="Macbook Video Underlay" data-animate="fadeInRightBig">
+					<img src="<?php echo assets_url(); ?>images/contenido/transportes-2.png" alt="Macbook Video Underlay" data-animate="fadeInRightBig">
 
-				</div>
+				</div>-->
 			</div>
 		</section><!-- #page-title end -->
 		
@@ -255,14 +257,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<section id="page-title" class="page-title-dark">
 			<a class="button button-full center tright footer-stick">
 				<div class="container clearfix">
-					Canvas comes with Unlimited Customizations &amp; Options. <strong>Check Out</strong> <i class="icon-caret-right" style="top:4px;"></i>
+					¿Necesita Reducir costos en las operaciones de logística y transporte? <strong>Saber más</strong> <i class="icon-caret-right" style="top:4px;"></i>
 				</div>
 			</a>
 		</section><!-- #page-title end -->
 		
 		<!-- Page Title
 		============================================= -->
-		<section id="page-title" class="page-title-dark">
+		<!--<section id="page-title" class="page-title-dark">
 			<div class="container clearfix">
 
 				<div class="col_one_third dark">
@@ -360,7 +362,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 
 			</div>
-		</section><!-- #page-title end -->
+		</section>--><!-- #page-title end -->
 
 		<!-- Footer
 		============================================= -->

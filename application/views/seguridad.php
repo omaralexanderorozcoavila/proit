@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<!-- Document Title
 	============================================= -->
-	<title>Home - Full Screen Image | Canvas</title>
+	<title>PROIT technologies</title>
 
 </head>
 
@@ -55,7 +55,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<nav id="primary-menu" class="sub-title">
 
 						<ul>
-							<li class="current"><a href="inicio"><div><?php echo $this->lang->line('link_home'); ?></div><span><?php echo $this->lang->line('sub_text_link_home'); ?></span></a>
+							<li><a href="inicio"><div><?php echo $this->lang->line('link_home'); ?></div><span><?php echo $this->lang->line('sub_text_link_home'); ?></span></a>
 								<ul>
 									<li><a href="nosotros"><div><?php echo $this->lang->line('link_nosotros'); ?></div></a></li>
 								</ul>
@@ -75,7 +75,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<li><a href="ciudades_i"><div><?php echo $this->lang->line('link_ciudades'); ?></div></a></li>
 								</ul>
 							</li>
-							<li><a href="#"><div><?php echo $this->lang->line('link_soluciones'); ?></div><span><?php echo $this->lang->line('sub_text_link_soluciones'); ?></span></a>
+							<li class="current"><a href="#"><div><?php echo $this->lang->line('link_soluciones'); ?></div><span><?php echo $this->lang->line('sub_text_link_soluciones'); ?></span></a>
 								<ul>
 									<li><a href="soluciones"><div><?php echo $this->lang->line('link_soluciones_n'); ?></div></a></li>
 									<li><a href="intraestructura"><div><?php echo $this->lang->line('link_infraestructura'); ?></div></a></li>
@@ -141,12 +141,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo assets_url(); ?>images/about/parallax.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3">
 
 			<div class="container clearfix">
-				<h1>Job Openings</h1>
-				<span>Join our Fabulous Team of Intelligent Individuals</span>
+				<h1>Seguridad</h1>
+				<span></span>
 				<ol class="breadcrumb">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Pages</a></li>
-					<li class="active">Jobs</li>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Soluciones</a></li>
+					<li class="active">Seguridad</li>
 				</ol>
 			</div>
 
@@ -156,66 +156,72 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		============================================= -->
 		<section id="content">
 
-			<div class="content-wrap">
-
-				<div class="section header-stick dark">
-					<div class="container clearfix">
-						<div class="row">
-
-							<div class="col-md-9">
-								<div class="heading-block bottommargin-sm">
-									<h3>We specialize in Robust Software Solutions</h3>
-								</div>
-
-								<p class="nobottommargin">Lasting change, stakeholders development Angelina Jolie world problem solving progressive. Courageous; social entrepreneurship change; accelerate resolve pursue these aspirations asylum.</p>
-							</div>
-
-							<!--<div class="col-md-3">
-								<a href="#" class="button button-3d button-dark button-large btn-block center" style="margin-top: 30px;">Check our Services</a>
-							</div>-->
-
-						</div>
-					</div>
-				</div>
-				
+			<div class="section header-stick dark">
 				<div class="container clearfix">
+					<div class="row">
 
-					<div class="col_half topmargin-sm bottommargin">
-						<img data-animate="fadeInLeftBig" src="<?php echo assets_url(); ?>images/services/imac.png" alt="Imac">
-					</div>
-
-					<div class="col_half col_last topmargin-sm bottommargin-lg col_last">
-
-						<div class="heading-block topmargin">
-							<h2>Retina Device Ready.</h2>
-							<span>Fabulously Sharp &amp; Intuitive on your HD Devices.</span>
+						<div class="col-md-9">
+							<div class="heading-block bottommargin-sm">
+								<h3>DETENGASE Y RESPONDA A LAS AMENAZAS DE SEGURIDAD DEL DIA-A-DÍA</h3>
+							</div>
 						</div>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus deserunt, nobis quae eos provident quidem. Quaerat expedita dignissimos perferendis, nihil quo distinctio eius architecto reprehenderit maiores.</p>
-
-						<a href="#" class="button button-border button-rounded button-large noleftmargin topmargin-sm">Experience More</a>
+						<!--<div class="col-md-3">
+							<a href="#" class="button button-3d button-dark button-large btn-block center" style="margin-top: 30px;">Check our Services</a>
+						</div>-->
 
 					</div>
+				</div>
+			</div>
+			
+			<div class="container clearfix">
 
-					<div class="line"></div>
+				<div class="col_half topmargin-sm bottommargin">
+					<img data-animate="fadeInLeftBig" src="<?php echo assets_url(); ?>images/services/imac.png" alt="Imac">
+				</div>
+
+				<div class="col_half col_last topmargin-sm bottommargin-lg col_last">
+
+					<div class="heading-block topmargin">
+						<h2>Especialistas en:</h2>
+						<span></span>
+					</div>
+					
+					<ul class="iconlist iconlist-large iconlist-color">
+						<li><i class="icon-ok-sign"></i> Gestión de Seguridad</li>
+						<li><i class="icon-ok-sign"></i> Seguridad de red y de aplicaciones</li>
+						<li><i class="icon-ok-sign"></i> Gestión de identidades</li>
+						<li><i class="icon-ok-sign"></i> Security Operations Center</li>
+						<li><i class="icon-ok-sign"></i> Network Operations Center</li>
+						<li><i class="icon-ok-sign"></i> Video Vigilancia</li>
+						<li><i class="icon-ok-sign"></i> Seguridad periférica y biométrica</li>
+					</ul>
+
+					<p>En la sociedad actual en el que el flujo de información y el conocimiento constituyen los principales activos de una empresa, es imperativo que la seguridad y protección de estos activos se dirijan a todos los niveles de la organización; de forma más profunda y se utilicen las prácticas eficaces para garantizar La fiabilidad y la disponibilidad de dicho asunto.</p>
+					
+					<p>A medida que las empresas generan información, la almacenan y distribuyen, como forma más eficiente de conducir su actividad, aumentan los riesgos a qué información está expuesta, incluso, en el caso de que la información caiga en manos equivocadas, esté disponible o sea corrompida, constituida por una amenaza para la organización.</p>
+
+					<!--<a href="#" class="button button-border button-rounded button-large noleftmargin topmargin-sm">Experience More</a>-->
 
 				</div>
-				
-				<div class="container">
 
-					<div class="col_half">
-						<h5>Half Width</h5>
-						Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
-					</div>
-
-					<div class="col_half col_last">
-						<h5>Half Width (Last)</h5>
-						Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
-					</div>
-
-				</div>
+				<!--<div class="line"></div>-->
 
 			</div>
+			
+			<!--<div class="container">
+
+				<div class="col_half">
+					<h5>Half Width</h5>
+					Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
+				</div>
+
+				<div class="col_half col_last">
+					<h5>Half Width (Last)</h5>
+					Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.
+				</div>
+
+			</div>-->
 
 		</section><!-- #content end -->
 		
@@ -224,12 +230,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<section id="page-title" class="page-title-dark">
 			<div class="container clearfix">
 				<div class="col_half topmargin nobottommargin dark">
+					<div class="heading-block topmargin">
+						<h3>TENEMOS LA VISIÓN Y EXPERIENCIA</h3>
+						<span>La seguridad de la información no es un problema meramente técnico de la esfera de los responsables de los sistemas de información, sino un desafío que implica la conformación de dicha gestión y a su vez toda la organización.</span>
+					</div>					
 
-					<h3>Short Overview.</h3>
+					<p>PROIT Technologies en alianza con COMPTA, ofrecen un amplio conjunto de servicios y plataformas utilizables en los diferentes ámbitos relacionados con la seguridad de la información que complementados, constituyen soluciones cuyas funcionalidades garantizan la correcta protección y la disponibilidad de la información necesaria para el funcionamiento y desarrollo de las organizaciones donde se aplican.</p>
+					
+					<p>Este conjunto de servicios se complementa con la utilización de herramientas de análisis e informes para verificar las necesidades de la organización en términos de seguridad de información y definir las medidas necesarias para alcanzar los objetivos que se plantean.</p>
+					
+					<p>Una adecuada gestión del riesgo, la definición de procedimientos y de políticas de seguridad, la implementación de una arquitectura de sistemas adecuada y el uso de plataformas de seguridad específicas complementadas con la correcta monitorización y actualización, son fundamentales para garantizar una protección eficiente de la información generada y puesta a disposición de la organización.</p>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, quos, facilis esse rem dicta dignissimos eligendi earum sapiente ipsam iure vel deserunt.</p>
-
-					<div class="divider divider-short"><i class="icon-circle"></i></div>
+					<!--<div class="divider divider-short"><i class="icon-circle"></i></div>
 
 					<ul class="iconlist iconlist-large iconlist-color">
 						<li><i class="icon-ok-sign"></i> Interactive Live Builder</li>
@@ -238,7 +250,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<li><i class="icon-ok-sign"></i> Responsive &amp; Retina Devices Support</li>
 						<li><i class="icon-ok-sign"></i> Easy Embeddable Media &amp; Graphics</li>
 						<li><i class="icon-ok-sign"></i> Lifetime <strong>FREE</strong> Updates</li>
-					</ul>
+					</ul>-->
 
 				</div>
 
@@ -255,14 +267,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<section id="page-title" class="page-title-dark">
 			<a class="button button-full center tright footer-stick">
 				<div class="container clearfix">
-					Canvas comes with Unlimited Customizations &amp; Options. <strong>Check Out</strong> <i class="icon-caret-right" style="top:4px;"></i>
+					¡Estamos enfocados en la solución! <strong>Contáctenos</strong> <i class="icon-caret-right" style="top:4px;"></i>
 				</div>
 			</a>
 		</section><!-- #page-title end -->
 		
 		<!-- Page Title
 		============================================= -->
-		<section id="page-title" class="page-title-dark">
+		<!--<section id="page-title" class="page-title-dark">
 			<div class="container clearfix">
 
 				<div class="col_one_third dark">
@@ -360,7 +372,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 
 			</div>
-		</section><!-- #page-title end -->
+		</section>--><!-- #page-title end -->
 
 		<!-- Footer
 		============================================= -->
