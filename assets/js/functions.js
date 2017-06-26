@@ -1138,9 +1138,9 @@ var SEMICOLON = SEMICOLON || {};
 			if( $body.hasClass('device-lg') || $body.hasClass('device-md') ) {
 				$('#primary-menu.sub-title > ul > li').hover(function() {
 					$(this).prev().css({ backgroundImage : 'none' });
-				}, function() {
-					$(this).prev().css({ backgroundImage : 'url("images/icons/menu-divider.png")' });
-				});
+				}/*, function() {
+					$(this).prev().css({ backgroundImage : 'url("../images/icons/menu-divider.png")' });
+				}*/);
 
 				$('#primary-menu.sub-title').children('ul').children('.current').prev().css({ backgroundImage : 'none' });
 			}
