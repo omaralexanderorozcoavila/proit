@@ -47,7 +47,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					============================================= -->
 					<div id="logo">
 						<a href="inicio" class="standard-logo" data-dark-logo="<?php echo assets_url(); ?>images/logo-dark.png"><img src="<?php echo assets_url(); ?>images/logo.png" alt="Canvas Logo"></a>
-						<a href="inicio" class="retina-logo" data-dark-logo="<?php echo assets_url(); ?>images/logo-dark@2x.png"><img src="<?php echo assets_url(); ?>images/logo@2x.png" alt="Canvas Logo"></a>
+						<a href="inicio" class="retina-logo" data-dark-logo="<?php echo assets_url(); ?>images/logo-dark.png"><img src="<?php echo assets_url(); ?>images/logo@2x.png" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -55,42 +55,36 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<nav id="primary-menu" class="sub-title">
 
 						<ul>
-							<li class="current"><a href="inicio"><div><?php echo $this->lang->line('link_home'); ?></div><span><?php echo $this->lang->line('sub_text_link_home'); ?></span></a>
+							<li><a href="index"><div><?php echo $this->lang->line('link_home'); ?></div></a>
+							</li>
+							
+							<li><a href="index"><div><?php echo $this->lang->line('link_home_proit'); ?></div></a>
 								<ul>
-									<li><a href="nosotros"><div><?php echo $this->lang->line('link_nosotros'); ?></div></a></li>
+									<li><a href="about_us"><div><?php echo $this->lang->line('link_nosotros'); ?></div></a></li>
+									<li><a href="partnerships"><div><?php echo $this->lang->line('link_partnerships'); ?></div></a></li>
 								</ul>
 							</li>
-							<li><a href="#"><div><?php echo $this->lang->line('link_mercados'); ?></div><span><?php echo $this->lang->line('sub_text_link_mercados'); ?></span></a>
+							<li><a href="smartcities"><div><?php echo $this->lang->line('link_ciudades'); ?></div></a></li>
+							<li><a href="smartindustries"><div><?php echo $this->lang->line('link_smartindustries'); ?></div></a></li>
+							<li class="current"><a href="#"><div><?php echo $this->lang->line('link_soluciones'); ?></div></a>
 								<ul>
-									<li><a href="admin_p"><div><?php echo $this->lang->line('link_admin'); ?></div></a></li>
-									<li><a href="ambiente"><div><?php echo $this->lang->line('link_ambiente'); ?></div></a></li>
-									<li><a href="agricultura"><div><?php echo $this->lang->line('link_agricultura'); ?></div></a></li>
-									<li><a href="energia"><div><?php echo $this->lang->line('link_energia'); ?></div></a></li>
-									<li><a href="industria"><div><?php echo $this->lang->line('link_industria'); ?></div></a></li>
-									<li><a href="mar"><div><?php echo $this->lang->line('link_mar'); ?></div></a></li>
-									<li><a href="salud"><div><?php echo $this->lang->line('link_salud'); ?></div></a></li>
-									<li><a href="servicios_f"><div><?php echo $this->lang->line('link_servicios'); ?></div></a></li>
-									<li><a href="telecomunicaciones"><div><?php echo $this->lang->line('link_telecomunicaciones'); ?></div></a></li>
-									<li><a href="transporte"><div><?php echo $this->lang->line('link_transporte'); ?></div></a></li>
-									<li><a href="ciudades_i"><div><?php echo $this->lang->line('link_ciudades'); ?></div></a></li>
-								</ul>
-							</li>
-							<li><a href="#"><div><?php echo $this->lang->line('link_soluciones'); ?></div><span><?php echo $this->lang->line('sub_text_link_soluciones'); ?></span></a>
-								<ul>
-									<li><a href="soluciones"><div><?php echo $this->lang->line('link_soluciones_n'); ?></div></a></li>
-									<li><a href="intraestructura"><div><?php echo $this->lang->line('link_infraestructura'); ?></div></a></li>
-									<li><a href="seguridad"><div><?php echo $this->lang->line('link_seguridad'); ?></div></a></li>
-									<li><a href="plataformas"><div><?php echo $this->lang->line('link_plataformas'); ?></div></a></li>
-									<li><a href="redes_i"><div><?php echo $this->lang->line('link_redes'); ?></div></a></li>
-									<li><a href="gestion_s"><div><?php echo $this->lang->line('link_gestion'); ?></div></a></li>
-									<li><a href="outsourcing"><div><?php echo $this->lang->line('link_outsourcing'); ?></div></a></li>
-									<li><a href="productos"><div><?php echo $this->lang->line('link_productos'); ?></div></a></li>
+									<li><a href="energyconsumption"><div><?php echo $this->lang->line('link_energia'); ?></div></a></li>
+									<li><a href="greenspaces"><div><?php echo $this->lang->line('link_greenspaces'); ?></div></a></li>
+									<li><a href="wastlecollection"><div><?php echo $this->lang->line('link_wastlecollection'); ?></div></a></li>
+									<li><a href="fleetmanagement"><div><?php echo $this->lang->line('link_fleetmanagement'); ?></div>
+</a></li>								
+									<li><a href="citizeninterface"><div><?php echo $this->lang->line('link_citizeninterface'); ?></div></a></li>
+									<li ><a href="agriculture"><div><?php echo $this->lang->line('link_agriculture'); ?></div></a></li>
+									<li><a href="cargomanagement"><div><?php echo $this->lang->line('link_cargomanagement'); ?></div></a></li>
+									<li><a href="aquaculture"><div><?php echo $this->lang->line('link_aquaculture'); ?></div></a></li>
+									<li><a href="products"><div><?php echo $this->lang->line('link_products'); ?></div></a></li>
 								</ul>
 							</li>
 							<li>
-								<a href="contacto"><div><?php echo $this->lang->line('link_contactos'); ?></div><span><?php echo $this->lang->line('sub_text_link_contactos'); ?></span></a>
+								<a href="contacto"><div><?php echo $this->lang->line('link_contactos'); ?></div></a>
 							</li>
 						</ul>
+						
 
 						<!-- Top Search
 						============================================= -->

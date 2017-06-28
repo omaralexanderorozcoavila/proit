@@ -31,66 +31,70 @@ class Welcome extends CI_Controller {
 	}
 	
 	// Métodos de ruta a páginas de mercados
-	public function admin_p()
+	public function partnerships()
 	{
-		$this->load->view('admin_p');
+		$this->load->view('new/partnerships');
 	}
 	
-	public function ambiente()
+	public function smartcities()
 	{
-		$this->load->view('ambiente');
+		$this->load->view('new/smartcities');
 	}
 	
-	public function agricultura()
+	public function smartindustries()
 	{
-		$this->load->view('agricultura');
+		$this->load->view('new/smartindustries');
 	}
 	
-	public function energia()
+	public function energyconsumption()
 	{
-		$this->load->view('energia');
+		$this->load->view('new/energyconsumption');
 	}
 	
-	public function industria()
+	public function greenspaces()
 	{
-		$this->load->view('industria');
+		$this->load->view('new/greenspaces');
 	}
 	
-	public function mar()
+	public function wastlecollection()
 	{
-		$this->load->view('mar');
+		$this->load->view('new/wastlecollection');
 	}
 	
-	public function salud()
+	public function fleetmanagement()
 	{
-		$this->load->view('salud');
+		$this->load->view('new/fleetmanagement');
 	}
 	
-	public function servicios_f()
+	public function citizeninterface()
 	{
-		$this->load->view('servicios_f');
+		$this->load->view('new/citizeninterface');
 	}
 	
-	public function telecomunicaciones()
+	public function agriculture()
 	{
-		$this->load->view('telecomunicaciones');
+		$this->load->view('new/agriculture');
 	}
 	
-	public function transporte()
+	public function cargomanagement()
 	{
-		$this->load->view('transporte');
+		$this->load->view('new/cargomanagement');
 	}
 	
-	public function ciudades_i()
+	public function aquaculture()
 	{
-		$this->load->view('ciudades_i');
+		$this->load->view('new/aquaculture');
 	}
 	
 	// Métodos de ruta a páginas de soluciones
-	public function soluciones()
+	public function products()
 	{
-		$this->load->view('soluciones');
+		$this->load->view('new/products');
 	}
+	
+	
+	
+	
 	
 	public function intraestructura()
 	{

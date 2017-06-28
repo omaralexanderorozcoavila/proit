@@ -56,10 +56,29 @@ $route['translate_uri_dashes'] = FALSE;
 /* public pages*/
 
 /* páginas del index*/
-$route['inicio'] = 'welcome';
-$route['nosotros'] = 'welcome/nosotros';
+$route['index'] = 'welcome';
+$route['about_us'] = 'welcome/nosotros';
+$route['partnerships'] = 'welcome/partnerships';
+$route['smartcities'] = 'welcome/smartcities';
+$route['smartindustries'] = 'welcome/smartindustries';
+$route['energyconsumption'] = 'welcome/energyconsumption';
+$route['greenspaces'] = 'welcome/greenspaces';
+$route['wastlecollection'] = 'welcome/wastlecollection';
+$route['fleetmanagement'] = 'welcome/fleetmanagement';
+$route['citizeninterface'] = 'welcome/citizeninterface';
+$route['agriculture'] = 'welcome/agriculture';
+$route['cargomanagement'] = 'welcome/cargomanagement';
+$route['aquaculture'] = 'welcome/aquaculture';
+$route['products'] = 'welcome/products';
 
-/* páginas de mercados*/
+
+
+
+
+
+
+
+/* páginas de mercados
 $route['admin_p'] = 'welcome/admin_p';
 $route['ambiente'] = 'welcome/ambiente';
 $route['agricultura'] = 'welcome/agricultura';
@@ -71,8 +90,9 @@ $route['servicios_f'] = 'welcome/servicios_f';
 $route['telecomunicaciones'] = 'welcome/telecomunicaciones';
 $route['transporte'] = 'welcome/transporte';
 $route['ciudades_i'] = 'welcome/ciudades_i';
+*/
 
-/* páginas de soluciones*/
+/* páginas de soluciones
 $route['soluciones'] = 'welcome/soluciones';
 $route['intraestructura'] = 'welcome/intraestructura';
 $route['seguridad'] = 'welcome/seguridad';
@@ -81,6 +101,7 @@ $route['redes_i'] = 'welcome/redes_i';
 $route['gestion_s'] = 'welcome/gestion_s';
 $route['outsourcing'] = 'welcome/outsourcing';
 $route['productos'] = 'welcome/productos';
+*/
 
 /* página de contacto*/
 $route['contacto'] = 'welcome/contacto';
