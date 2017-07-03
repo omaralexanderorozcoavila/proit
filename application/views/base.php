@@ -32,6 +32,75 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- Document Wrapper
 	============================================= -->
 	<div id="wrapper" class="clearfix" style="background-color:#333333 !important;">
+		
+		<!-- Top Bar
+		============================================= -->
+		<div id="top-bar">
+
+			<div class="container clearfix">
+
+				<div class="col_half nobottommargin">
+
+					<!-- Top Links
+					============================================= -->
+					<div class="top-links">
+						<ul>
+							<li><a href="mailto:info@canvas.com"><i class="icon-email3"></i></a></li>
+							<li><a href="login-register.html">Login</a>
+								<div class="top-link-section">
+									<form id="top-login" role="form">
+										<div class="input-group" id="top-login-username">
+											<span class="input-group-addon"><i class="icon-user"></i></span>
+											<input type="email" class="form-control" placeholder="Email address" required="">
+										</div>
+										<div class="input-group" id="top-login-password">
+											<span class="input-group-addon"><i class="icon-key"></i></span>
+											<input type="password" class="form-control" placeholder="Password" required="">
+										</div>
+										<label class="checkbox">
+										  <input type="checkbox" value="remember-me"> Remember me
+										</label>
+										<button class="btn btn-danger btn-block" type="submit">Sign in</button>
+									</form>
+								</div>
+							</li>
+						</ul>
+					</div><!-- .top-links end -->
+
+				</div>
+
+				<div class="col_half fright col_last nobottommargin">
+
+					<!-- Top Social
+					============================================= -->
+					<div class="top-links">
+						<ul>
+							<li>
+								<a onclick="javascript:window.location.href='<?php echo base_url(); ?>LanguageSwitcher/switchLang/portuguese';" href="#">
+								<?php if($this->session->userdata('site_lang') == 'portuguese') echo '<span style="color:#3DAAD6;">Pt</span>'; 
+								else echo '<span>Pt</span>';?>
+								</a>
+							</li>
+							<li>
+								<a onclick="javascript:window.location.href='<?php echo base_url(); ?>LanguageSwitcher/switchLang/spanish';" href="#">
+								<?php if($this->session->userdata('site_lang') == 'spanish') echo '<span style="color:#3DAAD6;">Es</span>'; 
+								else echo '<span>Es</span>';?>
+								</a>
+							</li>
+							<li>
+								<a onclick="javascript:window.location.href='<?php echo base_url(); ?>LanguageSwitcher/switchLang/english';" href="#">
+								<?php if($this->session->userdata('site_lang') == 'english') echo '<span style="color:#3DAAD6;">En</span>'; 
+								else echo '<span>En</span>';?>
+								</a>
+							</li>
+						</ul>
+					</div><!-- #top-social end -->
+
+				</div>
+
+			</div>
+
+		</div><!-- #top-bar end -->
 
 		<!-- Header
 		============================================= -->
@@ -94,32 +163,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							</form>
 						</div>--><!-- #top-search end -->
 						
-						<!-- Top Search
-						============================================= -->
-						<div id="top-search">
-							<a onclick="javascript:window.location.href='<?php echo base_url(); ?>LanguageSwitcher/switchLang/portuguese';" href="#">
-							<?php if($this->session->userdata('site_lang') == 'portuguese') echo '<span style="color:#3DAAD6;">Pt</span>'; 
-							else echo '<span>Pt</span>';?>
-							</a>
-						</div><!-- #top-search end -->
 						
-						<!-- Top Search
-						============================================= -->
-						<div id="top-search">
-							<a onclick="javascript:window.location.href='<?php echo base_url(); ?>LanguageSwitcher/switchLang/spanish';" href="#">
-							<?php if($this->session->userdata('site_lang') == 'spanish') echo '<span style="color:#3DAAD6;">Es</span>'; 
-							else echo '<span>Es</span>';?>
-							</a>
-						</div><!-- #top-search end -->
-						
-						<!-- Top Search
-						============================================= -->
-						<div id="top-search">
-							<a onclick="javascript:window.location.href='<?php echo base_url(); ?>LanguageSwitcher/switchLang/english';" href="#">
-							<?php if($this->session->userdata('site_lang') == 'english') echo '<span style="color:#3DAAD6;">En</span>'; 
-							else echo '<span>En</span>';?>
-							</a>
-						</div><!-- #top-search end -->
 
 					</nav><!-- #primary-menu end -->
 
