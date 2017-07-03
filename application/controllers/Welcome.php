@@ -22,74 +22,102 @@ class Welcome extends CI_Controller {
 	// Métodos de ruta a páginas del index
 	public function index()
 	{
-		$this->load->view('inicio');
+		$data['pagina'] = 'inicio.php';
+		$data['section'] = 'index';
+		$this->load->view('base', $data);
 	}
 	
 	public function nosotros()
 	{
-		$this->load->view('nosotros');
+		$data['pagina'] = 'nosotros.php';
+		$data['section'] = 'proit';
+		$this->load->view('base', $data);
 	}
 	
 	// Métodos de ruta a páginas de mercados
 	public function partnerships()
 	{
-		$this->load->view('new/partnerships');
+		$data['pagina'] = 'new/partnerships.php';
+		$data['section'] = 'proit';
+		$this->load->view('base', $data);
 	}
 	
 	public function smartcities()
 	{
-		$this->load->view('new/smartcities');
+		$data['pagina'] = 'new/smartcities.php';
+		$data['section'] = 'smarcities';
+		$this->load->view('base', $data);
 	}
 	
 	public function smartindustries()
 	{
-		$this->load->view('new/smartindustries');
+		$data['pagina'] = 'new/smartindustries.php';
+		$data['section'] = 'smartindustries';
+		$this->load->view('base', $data);
 	}
 	
 	public function energyconsumption()
 	{
-		$this->load->view('new/energyconsumption');
+		$data['pagina'] = 'new/energyconsumption.php';
+		$data['section'] = 'products';
+		$this->load->view('base', $data);
 	}
 	
 	public function greenspaces()
 	{
-		$this->load->view('new/greenspaces');
+		$data['pagina'] = 'new/greenspaces.php';
+		$data['section'] = 'products';
+		$this->load->view('base', $data);
 	}
 	
 	public function wastlecollection()
 	{
-		$this->load->view('new/wastlecollection');
+		$data['pagina'] = 'new/wastlecollection.php';
+		$data['section'] = 'products';
+		$this->load->view('base', $data);
 	}
 	
 	public function fleetmanagement()
 	{
-		$this->load->view('new/fleetmanagement');
+		$data['pagina'] = 'new/fleetmanagement.php';
+		$data['section'] = 'products';
+		$this->load->view('base', $data);
 	}
 	
 	public function citizeninterface()
 	{
-		$this->load->view('new/citizeninterface');
+		$data['pagina'] = 'new/citizeninterface.php';
+		$data['section'] = 'products';
+		$this->load->view('base', $data);
 	}
 	
 	public function agriculture()
 	{
-		$this->load->view('new/agriculture');
+		$data['pagina'] = 'new/agriculture.php';
+		$data['section'] = 'products';
+		$this->load->view('base', $data);
 	}
 	
 	public function cargomanagement()
 	{
-		$this->load->view('new/cargomanagement');
+		$data['pagina'] = 'new/cargomanagement.php';
+		$data['section'] = 'products';
+		$this->load->view('base', $data);
 	}
 	
 	public function aquaculture()
 	{
-		$this->load->view('new/aquaculture');
+		$data['pagina'] = 'new/aquaculture.php';
+		$data['section'] = 'products';
+		$this->load->view('base', $data);
 	}
 	
 	// Métodos de ruta a páginas de soluciones
 	public function products()
 	{
-		$this->load->view('new/products');
+		$data['pagina'] = 'new/products.php';
+		$data['section'] = 'products';
+		$this->load->view('base', $data);
 	}
 	
 	
@@ -134,6 +162,8 @@ class Welcome extends CI_Controller {
 	// Métodos de ruta a la página de contacto
 	public function contacto()
 	{
-		$this->load->view('contacto');
+		$data['pagina'] = 'contacto.php';
+		$data['section'] = 'contact';
+		$this->load->view('base', $data);
 	}
 }
