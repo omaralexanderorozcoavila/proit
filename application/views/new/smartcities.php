@@ -132,308 +132,319 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<!-- Page Title
 		============================================= -->
-		<section id="page-title" class="page-title-parallax page-title-dark" style="padding: 250px 0; background-image: url('<?php echo assets_url(); ?>images/banner/banner-nosotros.jpg'); background-size: cover; background-position: center center;" data-stellar-background-ratio="0.4">
+		<section id="page-title">
 
 			<div class="container clearfix">
-				<h1><?php echo $this->lang->line('link_ciudades'); ?></h1>
-				
+				<h1>Process Steps</h1>
+				<span>Go through a Definite Process</span>
+				<ol class="breadcrumb">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Shortcodes</a></li>
+					<li class="active">Process Steps</li>
+				</ol>
 			</div>
 
 		</section><!-- #page-title end -->
+		
 
 		<!-- Content
 		============================================= -->
 		<section id="content">
 
 			<div class="content-wrap">
-
 				<div class="container clearfix">
+					<div class="row clearfix">
 
-					<div class="col_half">
-
-						<div class="heading-block fancy-title nobottomborder title-bottom-border">
-							<h4>Nuestra <span>Misión</span>.</h4>
+						<div class="col-lg-5">
+							<div class="heading-block topmargin">
+								<h1>Welcome to Canvas.<br>MultiPurpose Template.</h1>
+							</div>
+							<p class="lead">Create a website that you are gonna be proud of. Be it Business, Portfolio, Agency, Photography, eCommerce &amp; much more.</p>
 						</div>
 
-						<p>En PROIT TECHNOLOGIES, nos especializamos en ofrecerte herramientas digitales que se adapten a sus necesidades, donde su negocio podrá contar con la innovación tecnológica que tanto se hace prioritaria en ésta última década.   Presentamos una gama completa y especializada de productos y servicios que se acomodaran en función al área que su negocio se dedique, impulsando aún más el desempeño de sus actividades comerciales.
-</p>
+						<div class="col-lg-7">
 
-					</div>
+							<div style="position: relative; margin-bottom: -60px;" class="ohidden" data-height-lg="426" data-height-md="567" data-height-sm="470" data-height-xs="287" data-height-xxs="183">
+								<img src="/assets/images/services/main-fbrowser.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
+								<img src="/assets/images/services/main-fmobile.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="400" alt="iPad">
+							</div>
 
-					<div class="col_half col_last">
-
-						<div class="heading-block fancy-title nobottomborder title-bottom-border">
-							<h4>Nuestra <span>Visión</span>.</h4>
 						</div>
 
-						<p>Ser la empresa líder en innovaciones tecnológicas, con la finalidad de seleccionar en el mercado mundial las mejores tecnologías que se adapten a su negocio. Y consolidarnos como pioneros en soluciones y respuestas con miras hacia el futuro.</p>
-
 					</div>
-
-					<div class="col">
-
-						<div class="heading-block fancy-title nobottomborder title-bottom-border">
-							<h4>PROIT <span>TECHNOLOGIES</span>.</h4>
-						</div>
-
-						<p>En PROIT TECHNOLOGIES, somos precursores en el desarrollo exponencial de su empresa, con relación a innovación, modernización tecnológica y digital.   Asimismo, conectamos de manera directa, sencilla y actual a sus clientes con relación a su negocio.    Estamos especializados en acoplarnos a cualquier tipo de área en donde usted requiera nuevas estrategias para el desenvolvimiento y rendimiento de sus actividades. 
-							<br><br> De igual manera, debemos resaltar la importancia de nuestra alianza comercial con la empresa COMPTA, que ocupa una posición envidiable en el mercado de las TI, con 45 años de experiencia acumula más de 400 certificaciones individuales y tiene el más alto nivel de certificación en sus principales socios estratégicos.   De esta manera podemos demostrar el nivel de seriedad, compromiso  y sobre todo responsabilidad que adquirimos con nuestros clientes, colaboradores y asociados.</p>
-
-					</div>
-
 				</div>
+				
+				<div class="line"></div>
+				
+				<div class="container divcenter clearfix">
 
-				<!--<div class="section nomargin">
+					<div class="heading-block center">
+						<h2>Canvas: We know you want it!</h2>
+						<span>Built with passion &amp; intuitiveness in mind. Canvas is a masterclass piece of work presented to you.</span>
+					</div>
+
+					<div style="position: relative;" data-height-lg="624" data-height-md="518" data-height-sm="397" data-height-xs="242" data-height-xxs="154">
+						<img src="/assets/images/services/fbrowser.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
+						<img src="/assets/images/services/fmobile.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="400" alt="iPad">
+						<img src="/assets/images/services/fbrowser2.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeIn" data-delay="1200" alt="iPad">
+					</div>
+				</div>
+				
+				<div class="line"></div>
+
+
+
+				<div class="section dark parallax notopmargin nobottommargin noborder" style="height: 500px; padding: 145px 0;">
+
 					<div class="container clearfix">
 
-						<div class="col_one_fourth nobottommargin center" data-animate="bounceIn">
-							<i class="i-plain i-xlarge divcenter icon-line2-directions"></i>
-							<div class="counter counter-lined"><span data-from="100" data-to="846" data-refresh-interval="50" data-speed="2000"></span>K+</div>
-							<h5>Lines of Codes</h5>
-						</div>
-
-						<div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="200">
-							<i class="i-plain i-xlarge divcenter nobottommargin icon-line2-graph"></i>
-							<div class="counter counter-lined"><span data-from="3000" data-to="15360" data-refresh-interval="100" data-speed="2500"></span>+</div>
-							<h5>KBs of HTML Files</h5>
-						</div>
-
-						<div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="400">
-							<i class="i-plain i-xlarge divcenter nobottommargin icon-line2-layers"></i>
-							<div class="counter counter-lined"><span data-from="10" data-to="408" data-refresh-interval="25" data-speed="3500"></span>*</div>
-							<h5>No. of Templates</h5>
-						</div>
-
-						<div class="col_one_fourth nobottommargin center col_last" data-animate="bounceIn" data-delay="600">
-							<i class="i-plain i-xlarge divcenter nobottommargin icon-line2-clock"></i>
-							<div class="counter counter-lined"><span data-from="60" data-to="1200" data-refresh-interval="30" data-speed="2700"></span>+</div>
-							<h5>Hours of Coding</h5>
+						<div class="slider-caption slider-caption-center" style="position: relative;">
+							<div data-animate="fadeInUp">
+								<h2 style="font-size: 42px;">Beautiful HTML5 Videos</h2>
+								<p>Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Powerful Layout with Responsive functionality that can be adapted to any screen size.</p>
+								<a href="#" class="button button-border button-rounded button-white button-light button-large noleftmargin nobottommargin" style="margin-top: 20px;">Show More</a>
+							</div>
 						</div>
 
 					</div>
-				</div>
 
-				<div class="row common-height clearfix">
-
-					<div class="col-sm-5 col-padding" style="background: url('<?php echo assets_url(); ?>images/team/3.jpg') center center no-repeat; background-size: cover;"></div>
-
-					<div class="col-sm-7 col-padding">
-						<div>
-							<div class="heading-block">
-								<span class="before-heading color">CEO &amp; Co-Founder</span>
-								<h3>John Doe</h3>
-							</div>
-
-							<div class="row clearfix">
-
-								<div class="col-md-6">
-									<p>Employment respond committed meaningful fight against oppression social challenges rural legal aid governance. Meaningful work, implementation, process cooperation, campaign inspire.</p>
-									<p>Advancement, promising development John Lennon, our ambitions involvement underprivileged billionaire philanthropy save the world transform. Carbon rights maintain healthcare emergent, implementation inspire social change solve clean water livelihoods.</p>
-									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-										<i class="icon-facebook"></i>
-										<i class="icon-facebook"></i>
-									</a>
-									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-										<i class="icon-twitter"></i>
-										<i class="icon-twitter"></i>
-									</a>
-									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-										<i class="icon-gplus"></i>
-										<i class="icon-gplus"></i>
-									</a>
-								</div>
-
-								<div class="col-md-6">
-									<ul class="skills">
-										<li data-percent="80">
-											<span>Wordpress</span>
-											<div class="progress">
-												<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="80" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-											</div>
-										</li>
-										<li data-percent="60">
-											<span>CSS3</span>
-											<div class="progress">
-												<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="60" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-											</div>
-										</li>
-										<li data-percent="90">
-											<span>HTML5</span>
-											<div class="progress">
-												<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="90" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-											</div>
-										</li>
-										<li data-percent="70">
-											<span>jQuery</span>
-											<div class="progress">
-												<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="70" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-											</div>
-										</li>
-										<li data-percent="85">
-											<span>Ruby</span>
-											<div class="progress">
-												<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="85" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-											</div>
-										</li>
-									</ul>
-								</div>
-
-							</div>
-
-						</div>
+					<div class="video-wrap">
+						<video poster="/assets/images/videos/explore.jpg" preload="none" loop autoplay muted>
+							<source src='/assets/images/videos/explore.mp4' type='video/mp4' />
+							<source src='/assets/images/videos/explore.webm' type='video/webm' />
+						</video>
+						<div class="video-overlay" style="background-color: rgba(0,0,0,0.3);"></div>
 					</div>
+					
+					
 
 				</div>
-
-				<div class="row common-height bottommargin-lg clearfix">
-
-					<div class="col-sm-7 col-padding" style="background-color: #F5F5F5;">
-						<div>
-							<div class="heading-block">
-								<span class="before-heading color">Developer &amp; Evangelist</span>
-								<h3>Mary Jane</h3>
-							</div>
-
-							<div class="row clearfix">
-
-								<div class="col-md-6">
-									<p>Employment respond committed meaningful fight against oppression social challenges rural legal aid governance. Meaningful work, implementation, process cooperation, campaign inspire.</p>
-									<p>Advancement, promising development John Lennon, our ambitions involvement underprivileged billionaire philanthropy save the world transform. Carbon rights maintain healthcare emergent, implementation inspire social change solve clean water livelihoods.</p>
-									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-										<i class="icon-facebook"></i>
-										<i class="icon-facebook"></i>
-									</a>
-									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-										<i class="icon-twitter"></i>
-										<i class="icon-twitter"></i>
-									</a>
-									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-										<i class="icon-gplus"></i>
-										<i class="icon-gplus"></i>
-									</a>
-								</div>
-
-								<div class="col-md-6">
-									<ul class="skills">
-										<li data-percent="80">
-											<span>Wordpress</span>
-											<div class="progress">
-												<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="80" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-											</div>
-										</li>
-										<li data-percent="60">
-											<span>CSS3</span>
-											<div class="progress">
-												<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="60" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-											</div>
-										</li>
-										<li data-percent="90">
-											<span>HTML5</span>
-											<div class="progress">
-												<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="90" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-											</div>
-										</li>
-										<li data-percent="70">
-											<span>jQuery</span>
-											<div class="progress">
-												<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="70" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-											</div>
-										</li>
-										<li data-percent="85">
-											<span>Ruby</span>
-											<div class="progress">
-												<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="85" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-											</div>
-										</li>
-									</ul>
-								</div>
-
-							</div>
-
-						</div>
-					</div>
-
-					<div class="col-sm-5 col-padding" style="background: url('<?php echo assets_url(); ?>images/team/8.jpg') center center no-repeat; background-size: cover;"></div>
-
-				</div>
-
+				
+				<div class="divider divider-short divider-center"><i class=""></i></div>
+				
 				<div class="container clearfix">
+
+					<div id="section-features" class="heading-block title-center page-section">
+						<h2>Features Overview</h2>
+						<span>Some of the Features that are gonna blow your mind off</span>
+					</div>
+
+					<div class="col_one_third">
+						<div class="feature-box fbox-plain">
+							<div class="fbox-icon" data-animate="bounceIn">
+								<a href="#"><img src="/assets/images/icons/features/responsive.png" alt="Responsive Layout"></a>
+							</div>
+							<h3>Responsive Layout</h3>
+							<p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
+						</div>
+					</div>
+
+					<div class="col_one_third">
+						<div class="feature-box fbox-plain">
+							<div class="fbox-icon" data-animate="bounceIn" data-delay="200">
+								<a href="#"><img src="/assets/images/icons/features/retina.png" alt="Retina Graphics"></a>
+							</div>
+							<h3>Retina Graphics</h3>
+							<p>Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Retina Icons, Fonts &amp; all others graphics are optimized.</p>
+						</div>
+					</div>
+
+					<div class="col_one_third col_last">
+						<div class="feature-box fbox-plain">
+							<div class="fbox-icon" data-animate="bounceIn" data-delay="400">
+								<a href="#"><img src="/assets/images/icons/features/performance.png" alt="Powerful Performance"></a>
+							</div>
+							<h3>Powerful Performance</h3>
+							<p>Canvas includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
+						</div>
+					</div>
 
 					<div class="clear"></div>
 
-					<div class="heading-block center">
-						<h4>Our Clients</h4>
+					<div class="col_one_third">
+						<div class="feature-box fbox-plain">
+							<div class="fbox-icon" data-animate="bounceIn" data-delay="600">
+								<a href="#"><img src="/assets/images/icons/features/flag.png" alt="Responsive Layout"></a>
+							</div>
+							<h3>Endless Possibilities</h3>
+							<p>You have complete easy control on each &amp; every element that provides endless customization possibilities.</p>
+						</div>
 					</div>
 
-					<ul class="clients-grid grid-6 nobottommargin clearfix">
-						<li><a href="http://logofury.com/logo/enzo.html"><img src="<?php echo assets_url(); ?>images/clients/1.png" alt="Clients"></a></li>
-						<li><a href="http://logofury.com"><img src="<?php echo assets_url(); ?>images/clients/2.png" alt="Clients"></a></li>
-						<li><a href="http://logofaves.com/2014/03/grabbt/"><img src="<?php echo assets_url(); ?>images/clients/3.png" alt="Clients"></a></li>
-						<li><a href="http://logofaves.com/2014/01/ladera-granola/"><img src="<?php echo assets_url(); ?>images/clients/4.png" alt="Clients"></a></li>
-						<li><a href="http://logofaves.com/2014/02/hershel-farms/"><img src="<?php echo assets_url(); ?>images/clients/5.png" alt="Clients"></a></li>
-						<li><a href="http://logofury.com/logo/food-fight-radio.html"><img src="<?php echo assets_url(); ?>images/clients/6.png" alt="Clients"></a></li>
-						<li><a href="http://logofury.com"><img src="<?php echo assets_url(); ?>images/clients/7.png" alt="Clients"></a></li>
-						<li><a href="http://logofury.com/logo/up-travel.html"><img src="<?php echo assets_url(); ?>images/clients/8.png" alt="Clients"></a></li>
-						<li><a href="http://logofury.com/logo/caffi-bardi.html"><img src="<?php echo assets_url(); ?>images/clients/9.png" alt="Clients"></a></li>
-						<li><a href="http://logofury.com/logo/bignix-design.html"><img src="<?php echo assets_url(); ?>images/clients/10.png" alt="Clients"></a></li>
-						<li><a href="http://logofury.com/"><img src="<?php echo assets_url(); ?>images/clients/11.png" alt="Clients"></a></li>
-						<li><a href="http://logofury.com/"><img src="<?php echo assets_url(); ?>images/clients/12.png" alt="Clients"></a></li>
-					</ul>
+					<div class="col_one_third">
+						<div class="feature-box fbox-plain">
+							<div class="fbox-icon" data-animate="bounceIn" data-delay="800">
+								<a href="#"><img src="/assets/images/icons/features/tick.png" alt="Retina Graphics"></a>
+							</div>
+							<h3>Light &amp; Dark Scheme</h3>
+							<p>Change your Website's Primary Scheme instantly by simply adding the dark class to the body.</p>
+						</div>
+					</div>
 
-				</div>-->
+					<div class="col_one_third col_last">
+						<div class="feature-box fbox-plain">
+							<div class="fbox-icon" data-animate="bounceIn" data-delay="1000">
+								<a href="#"><img src="/assets/images/icons/features/tools.png" alt="Powerful Performance"></a>
+							</div>
+							<h3>Customizable Fonts</h3>
+							<p>Use any Font you like from Google Web Fonts, Typekit or other Web Fonts. They will blend in perfectly.</p>
+						</div>
+					</div>
 
-				<!--<div class="section footer-stick">
+					<div class="clear"></div>
 
-					<h4 class="uppercase center">What <span>Clients</span> Say?</h4>
+					<div class="col_one_third">
+						<div class="feature-box fbox-plain">
+							<div class="fbox-icon" data-animate="bounceIn" data-delay="1200">
+								<a href="#"><img src="/assets/images/icons/features/map.png" alt="Responsive Layout"></a>
+							</div>
+							<h3>Responsive Layout</h3>
+							<p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
+						</div>
+					</div>
 
-					<div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false">
-						<div class="flexslider">
-							<div class="slider-wrap">
-								<div class="slide">
-									<div class="testi-image">
-										<a href="#"><img src="<?php echo assets_url(); ?>images/testimonials/3.jpg" alt="Customer Testimonails"></a>
-									</div>
-									<div class="testi-content">
-										<p>Similique fugit repellendus expedita excepturi iure perferendis provident quia eaque. Repellendus, vero numquam?</p>
-										<div class="testi-meta">
-											Steve Jobs
-											<span>Apple Inc.</span>
-										</div>
-									</div>
+					<div class="col_one_third">
+						<div class="feature-box fbox-plain">
+							<div class="fbox-icon" data-animate="bounceIn" data-delay="1400">
+								<a href="#"><img src="/assets/images/icons/features/seo.png" alt="Retina Graphics"></a>
+							</div>
+							<h3>Retina Graphics</h3>
+							<p>Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Retina Icons, Fonts &amp; all others graphics are optimized.</p>
+						</div>
+					</div>
+
+					<div class="col_one_third col_last">
+						<div class="feature-box fbox-plain">
+							<div class="fbox-icon" data-animate="bounceIn" data-delay="1600">
+								<a href="#"><img src="/assets/images/icons/features/support.png" alt="Powerful Performance"></a>
+							</div>
+							<h3>Powerful Performance</h3>
+							<p>Canvas includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
+						</div>
+					</div>
+
+					<div class="clear"></div>
+
+					<div class="divider divider-short divider-center"><i class="icon-circle"></i></div>
+
+					
+
+				</div>
+				
+				<div class="row clearfix common-height">
+
+					<div class="col-md-6 center col-padding" style="background: url('/assets/images/services/main-bg.jpg') center center no-repeat; background-size: cover;">
+						<div>&nbsp;</div>
+					</div>
+
+					<div class="col-md-6 center col-padding" style="background-color: #F5F5F5;">
+						<div>
+							<div class="heading-block nobottomborder">
+								<span class="before-heading color">Easily Understandable &amp; Customizable.</span>
+								<h3>Walkthrough Videos &amp; Demos</h3>
+							</div>
+
+							<div class="center bottommargin">
+								<a href="http://vimeo.com/101373765" data-lightbox="iframe" style="position: relative;">
+									<img src="images/services/video.jpg" alt="Video">
+									<span class="i-overlay nobg"><img src="images/icons/video-play.png" alt="Play"></span>
+								</a>
+							</div>
+							<p class="lead nobottommargin">Democracy inspire breakthroughs, Rosa Parks; inspiration raise awareness natural resources. Governance impact; transformative donation philanthropy, respect reproductive.</p>
+						</div>
+					</div>
+					<div class="divider divider-short divider-center"><i class=""></i></div>
+
+				</div>
+				<div class="container clearfix">
+
+					<div id="processTabs">
+						<ul class="process-steps bottommargin clearfix">
+							<li style="width: 16%;">
+								<a href="#ptab1" class="i-alt divcenter">
+									<img style="width: 55px;" src="/assets/images/icons/features/responsive.png">
+								</a>
+								<h5>Review Cart</h5>
+							</li>
+							<li style="width: 16%;">
+								<a href="#ptab2" class="i-alt divcenter">
+									<img style="width: 55px;" src="/assets/images/icons/features/tools.png">
+								</a>
+								<h5>Enter Shipping Info</h5>
+							</li>
+							<li style="width: 16%;">
+								<a href="#ptab3" class="i-alt divcenter">
+									<img style="width: 55px;" src="/assets/images/icons/features/tick.png">
+								</a>
+								<h5>Complete Payment</h5>
+							</li>
+							<li style="width: 16%;">
+								<a href="#ptab4" class="i-alt divcenter">
+									<img style="width: 55px;" src="/assets/images/icons/features/flag.png">
+								</a>
+								<h5>Order Complete</h5>
+							</li>
+							<li style="width: 16%;">
+								<a href="#ptab5" class="i-alt divcenter">
+									<img style="width: 55px;" src="/assets/images/icons/features/performance.png">
+								</a>
+								<h5>Order Complete</h5>
+							</li>
+							<li style="width: 16%;">
+								<a href="#ptab6" class="i-alt divcenter">
+									<img style="width: 55px;" src="/assets/images/icons/features/retina.png">
+								</a>
+								<h5>Order Complete</h5>
+							</li>
+						</ul>
+						<div>
+							<div id="ptab1">
+								<div class="alert alert-success">
+									<strong>Thank You.</strong> ptab2
 								</div>
-								<div class="slide">
-									<div class="testi-image">
-										<a href="#"><img src="<?php echo assets_url(); ?>images/testimonials/2.jpg" alt="Customer Testimonails"></a>
-									</div>
-									<div class="testi-content">
-										<p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
-										<div class="testi-meta">
-											Collis Ta'eed
-											<span>Envato Inc.</span>
-										</div>
-									</div>
+							</div>
+							<div id="ptab2">
+								<div class="alert alert-success">
+									<strong>Thank You.</strong> ptab2
 								</div>
-								<div class="slide">
-									<div class="testi-image">
-										<a href="#"><img src="<?php echo assets_url(); ?>images/testimonials/1.jpg" alt="Customer Testimonails"></a>
-									</div>
-									<div class="testi-content">
-										<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
-										<div class="testi-meta">
-											John Doe
-											<span>XYZ Inc.</span>
-										</div>
-									</div>
+							</div>
+							<div id="ptab3">
+								<div class="alert alert-success">
+									<strong>Thank You.</strong> ptab3
+								</div>
+							</div>
+							<div id="ptab4">
+								<div class="alert alert-success">
+									<strong>Thank You.</strong> ptab4
+								</div>
+							</div>
+							<div id="ptab5">
+								<div class="alert alert-success">
+									<strong>Thank You.</strong> ptab5
+								</div>
+							</div>
+							<div id="ptab6">
+								<div class="alert alert-success">
+									<strong>Thank You.</strong> ptab6
 								</div>
 							</div>
 						</div>
 					</div>
+					
 
-				</div>-->
+					
+				</div>
+				
+				
+				
+				
+				
 
 			</div>
 
-		</section><!-- #content end -->
+		</section>
+		
+		<!-- #content end -->
 
 		<!-- Footer
 		============================================= -->
