@@ -187,6 +187,105 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</div>
 
 				</div>
+<!--Our Team-->
+<div class="clear"></div>
+
+					<div class="fancy-title title-border title-center">
+						<h3>EXECUTIVE TEAM</h3>
+					</div>
+
+					<div id="oc-team" class="owl-carousel team-carousel bottommargin carousel-widget" data-margin="30" data-pagi="false" data-items-xs="2" data-items-sm="2" data-items-lg="4">
+
+						<div class="oc-item">
+							<div class="team">
+								<div class="team-image">
+									<img src="assets/images/team/3.jpg" alt="John Doe">
+								</div>
+								<div class="team-desc">
+									<div class="team-title"><h4>Siulmary Ovalles</h4><span>CEO</span></div>
+									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+										<i class="icon-facebook"></i>
+										<i class="icon-facebook"></i>
+									</a>
+									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+										<i class="icon-twitter"></i>
+										<i class="icon-twitter"></i>
+									</a>
+									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
+										<i class="icon-gplus"></i>
+										<i class="icon-gplus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="oc-item">
+							<div class="team">
+								<div class="team-image">
+									<img src="assets/images/team/2.jpg" alt="Josh Clark">
+								</div>
+								<div class="team-desc">
+									<div class="team-title"><h4>Henry Trejgier</h4><span>Executive Director</span></div>
+									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+										<i class="icon-facebook"></i>
+										<i class="icon-facebook"></i>
+									</a>
+									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+										<i class="icon-twitter"></i>
+										<i class="icon-twitter"></i>
+									</a>
+									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
+										<i class="icon-gplus"></i>
+										<i class="icon-gplus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="oc-item">
+							<div class="team">
+								<div class="team-image">
+									<img src="assets/images/team/8.jpg" alt="Mary Jane">
+								</div>
+								<div class="team-desc">
+									<div class="team-title"><h4>Henry Canfield</h4><span>Sales Director</span></div>
+									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+										<i class="icon-facebook"></i>
+										<i class="icon-facebook"></i>
+									</a>
+									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+										<i class="icon-twitter"></i>
+										<i class="icon-twitter"></i>
+									</a>
+									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
+										<i class="icon-gplus"></i>
+										<i class="icon-gplus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="oc-item">
+							<div class="team">
+								<div class="team-image">
+									<img src="assets/images/team/4.jpg" alt="Nix Maxwell">
+								</div>
+								<div class="team-desc">
+									<div class="team-title"><h4>Renato Lerner</h4><span>Partner</span></div>
+									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+										<i class="icon-facebook"></i>
+										<i class="icon-facebook"></i>
+									</a>
+									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+										<i class="icon-twitter"></i>
+										<i class="icon-twitter"></i>
+									</a>
+									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
+										<i class="icon-gplus"></i>
+										<i class="icon-gplus"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
 
 				<!--<div class="section nomargin">
 					<div class="container clearfix">
@@ -220,7 +319,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 				<div class="row common-height clearfix">
 
-					<div class="col-sm-5 col-padding" style="background: url('<?php echo assets_url(); ?>images/team/3.jpg') center center no-repeat; background-size: cover;"></div>
+					<div class="col-sm-5 col-padding" style="background: url('<?php echo assets_url(); ?>assets/images/team/3.jpg') center center no-repeat; background-size: cover;"></div>
 
 					<div class="col-sm-7 col-padding">
 						<div>
@@ -358,7 +457,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						</div>
 					</div>
 
-					<div class="col-sm-5 col-padding" style="background: url('<?php echo assets_url(); ?>images/team/8.jpg') center center no-repeat; background-size: cover;"></div>
+					<div class="col-sm-5 col-padding" style="background: url('<?php echo assets_url(); ?>assets/images/team/8.jpg') center center no-repeat; background-size: cover;"></div>
 
 				</div>
 
