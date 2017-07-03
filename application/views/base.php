@@ -55,18 +55,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<nav id="primary-menu" class="sub-title">
 
 						<ul>
-							<li id="li_index"><a href="index"><div><?php echo $this->lang->line('link_home'); ?></div></a>
+							<li id="li_index"><a href="index"><div><?php echo $this->lang->line('link_home'); ?></div><span>Lets Start</span></a>
 							</li>
 							
-							<li id="li_proit"><a href="index"><div><?php echo $this->lang->line('link_home_proit'); ?></div></a>
+							<li id="li_proit"><a href="index"><div><?php echo $this->lang->line('link_home_proit'); ?></div><span>About us</span></a>
 								<ul>
 									<li><a href="about_us"><div><?php echo $this->lang->line('link_nosotros'); ?></div></a></li>
 									<li><a href="partnerships"><div><?php echo $this->lang->line('link_partnerships'); ?></div></a></li>
 								</ul>
 							</li>
-							<li id="li_smartcities"><a href="smartcities"><div><?php echo $this->lang->line('link_ciudades'); ?></div></a></li>
-							<li id="li_smartindustries"><a href="smartindustries"><div><?php echo $this->lang->line('link_smartindustries'); ?></div></a></li>
-							<li id="li_products"><a href="#"><div><?php echo $this->lang->line('link_soluciones'); ?></div></a>
+							<li id="li_smartcities"><a href="smartcities"><div><?php echo $this->lang->line('link_ciudades'); ?></div><span>Intelligent Solutions</span></a></li>
+							<li id="li_smartindustries"><a href="smartindustries"><div><?php echo $this->lang->line('link_smartindustries'); ?></div><span>4.0 Industry</span></a></li>
+							<li id="li_products"><a href="#"><div><?php echo $this->lang->line('link_soluciones'); ?></div><span>Innovations for Industry & Smartcities</span></a>
 								<ul>
 									<li><a href="energyconsumption"><div><?php echo $this->lang->line('link_energia'); ?></div></a></li>
 									<li><a href="greenspaces"><div><?php echo $this->lang->line('link_greenspaces'); ?></div></a></li>
@@ -81,7 +81,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								</ul>
 							</li>
 							<li id="li_contact">
-								<a href="contacto"><div><?php echo $this->lang->line('link_contactos'); ?></div></a>
+								<a href="contacto"><div><?php echo $this->lang->line('link_contactos'); ?></div><span>Know us</span></a>
 							</li>
 						</ul>
 
@@ -231,8 +231,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			$("#li_index").addClass('current');
 		}else if($("#section").val() == "proit"){
 			$("#li_proit").addClass('current');
-		}else if($("#section").val() == "smarcities"){
-			$("#li_smarcities").addClass('current');
+		}else if($("#section").val() == "smartcities"){
+			$("#li_smartcities").addClass('current');
 		}else if($("#section").val() == "smartindustries"){
 			$("#li_smartindustries").addClass('current');
 		}else if($("#section").val() == "products"){
