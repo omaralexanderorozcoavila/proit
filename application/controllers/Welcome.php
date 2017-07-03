@@ -45,7 +45,7 @@ class Welcome extends CI_Controller {
 	public function smartcities()
 	{
 		$data['pagina'] = 'new/smartcities.php';
-		$data['section'] = 'smarcities';
+		$data['section'] = 'smartcities';
 		$this->load->view('base', $data);
 	}
 	
