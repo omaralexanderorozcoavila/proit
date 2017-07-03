@@ -33,8 +33,8 @@
 				<div class="col-lg-7">
 
 					<div style="position: relative; margin-bottom: -60px;" class="ohidden" data-height-lg="426" data-height-md="567" data-height-sm="470" data-height-xs="287" data-height-xxs="183">
-						<img src="/assets/images/services/main-fbrowser.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
-						<img src="/assets/images/services/main-fmobile.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="400" alt="iPad">
+						<img src="<?php echo assets_url(); ?>images/services/main-fbrowser.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
+						<img src="<?php echo assets_url(); ?>images/services/main-fmobile.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="400" alt="iPad">
 					</div>
 
 				</div>
@@ -52,9 +52,9 @@
 			</div>
 
 			<div style="position: relative;" data-height-lg="624" data-height-md="518" data-height-sm="397" data-height-xs="242" data-height-xxs="154">
-				<img src="/assets/images/services/fbrowser.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
-				<img src="/assets/images/services/fmobile.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="400" alt="iPad">
-				<img src="/assets/images/services/fbrowser2.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeIn" data-delay="1200" alt="iPad">
+				<img src="<?php echo assets_url(); ?>images/services/fbrowser.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
+				<img src="<?php echo assets_url(); ?>images/services/fmobile.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="400" alt="iPad">
+				<img src="<?php echo assets_url(); ?>images/services/fbrowser2.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeIn" data-delay="1200" alt="iPad">
 			</div>
 		</div>
 		
@@ -77,12 +77,14 @@
 			</div>
 
 			<div class="video-wrap">
-				<video poster="/assets/images/videos/explore.jpg" preload="none" loop autoplay muted>
-					<source src='/assets/images/videos/explore.mp4' type='video/mp4' />
-					<source src='/assets/images/videos/explore.webm' type='video/webm' />
+				<video poster="<?php echo assets_url(); ?>images/videos/explore.jpg" preload="none" loop autoplay muted>
+					<source src='<?php echo assets_url(); ?>images/videos/explore.mp4' type='video/mp4' />
+					<source src='<?php echo assets_url(); ?>images/videos/explore.webm' type='video/webm' />
 				</video>
 				<div class="video-overlay" style="background-color: rgba(0,0,0,0.3);"></div>
 			</div>
+			
+		</div>
 		
 		<div class="divider divider-short divider-center"><i class=""></i></div>
 		
@@ -97,7 +99,7 @@
 			<div class="col_one_third">
 				<div class="feature-box fbox-plain">
 					<div class="fbox-icon" data-animate="bounceIn">
-						<a href="#"><img src="/assets/images/icons/features/responsive.png" alt="Responsive Layout"></a>
+						<a href="#"><img src="<?php echo assets_url(); ?>images/icons/features/responsive.png" alt="Responsive Layout"></a>
 					</div>
 					<h3>Responsive Layout</h3>
 					<p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
@@ -107,7 +109,7 @@
 			<div class="col_one_third">
 				<div class="feature-box fbox-plain">
 					<div class="fbox-icon" data-animate="bounceIn" data-delay="200">
-						<a href="#"><img src="/assets/images/icons/features/retina.png" alt="Retina Graphics"></a>
+						<a href="#"><img src="<?php echo assets_url(); ?>images/icons/features/retina.png" alt="Retina Graphics"></a>
 					</div>
 					<h3>Retina Graphics</h3>
 					<p>Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Retina Icons, Fonts &amp; all others graphics are optimized.</p>
@@ -117,7 +119,7 @@
 			<div class="col_one_third col_last">
 				<div class="feature-box fbox-plain">
 					<div class="fbox-icon" data-animate="bounceIn" data-delay="400">
-						<a href="#"><img src="/assets/images/icons/features/performance.png" alt="Powerful Performance"></a>
+						<a href="#"><img src="<?php echo assets_url(); ?>images/icons/features/performance.png" alt="Powerful Performance"></a>
 					</div>
 					<h3>Powerful Performance</h3>
 					<p>Canvas includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
@@ -129,7 +131,7 @@
 			<div class="col_one_third">
 				<div class="feature-box fbox-plain">
 					<div class="fbox-icon" data-animate="bounceIn" data-delay="600">
-						<a href="#"><img src="/assets/images/icons/features/flag.png" alt="Responsive Layout"></a>
+						<a href="#"><img src="<?php echo assets_url(); ?>images/icons/features/flag.png" alt="Responsive Layout"></a>
 					</div>
 					<h3>Endless Possibilities</h3>
 					<p>You have complete easy control on each &amp; every element that provides endless customization possibilities.</p>
@@ -139,7 +141,7 @@
 			<div class="col_one_third">
 				<div class="feature-box fbox-plain">
 					<div class="fbox-icon" data-animate="bounceIn" data-delay="800">
-						<a href="#"><img src="/assets/images/icons/features/tick.png" alt="Retina Graphics"></a>
+						<a href="#"><img src="<?php echo assets_url(); ?>images/icons/features/tick.png" alt="Retina Graphics"></a>
 					</div>
 					<h3>Light &amp; Dark Scheme</h3>
 					<p>Change your Website's Primary Scheme instantly by simply adding the dark class to the body.</p>
@@ -149,7 +151,7 @@
 			<div class="col_one_third col_last">
 				<div class="feature-box fbox-plain">
 					<div class="fbox-icon" data-animate="bounceIn" data-delay="1000">
-						<a href="#"><img src="/assets/images/icons/features/tools.png" alt="Powerful Performance"></a>
+						<a href="#"><img src="<?php echo assets_url(); ?>images/icons/features/tools.png" alt="Powerful Performance"></a>
 					</div>
 					<h3>Customizable Fonts</h3>
 					<p>Use any Font you like from Google Web Fonts, Typekit or other Web Fonts. They will blend in perfectly.</p>
@@ -161,7 +163,7 @@
 			<div class="col_one_third">
 				<div class="feature-box fbox-plain">
 					<div class="fbox-icon" data-animate="bounceIn" data-delay="1200">
-						<a href="#"><img src="/assets/images/icons/features/map.png" alt="Responsive Layout"></a>
+						<a href="#"><img src="<?php echo assets_url(); ?>images/icons/features/map.png" alt="Responsive Layout"></a>
 					</div>
 					<h3>Responsive Layout</h3>
 					<p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
@@ -171,7 +173,7 @@
 			<div class="col_one_third">
 				<div class="feature-box fbox-plain">
 					<div class="fbox-icon" data-animate="bounceIn" data-delay="1400">
-						<a href="#"><img src="/assets/images/icons/features/seo.png" alt="Retina Graphics"></a>
+						<a href="#"><img src="<?php echo assets_url(); ?>images/icons/features/seo.png" alt="Retina Graphics"></a>
 					</div>
 					<h3>Retina Graphics</h3>
 					<p>Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Retina Icons, Fonts &amp; all others graphics are optimized.</p>
@@ -181,7 +183,7 @@
 			<div class="col_one_third col_last">
 				<div class="feature-box fbox-plain">
 					<div class="fbox-icon" data-animate="bounceIn" data-delay="1600">
-						<a href="#"><img src="/assets/images/icons/features/support.png" alt="Powerful Performance"></a>
+						<a href="#"><img src="<?php echo assets_url(); ?>images/icons/features/support.png" alt="Powerful Performance"></a>
 					</div>
 					<h3>Powerful Performance</h3>
 					<p>Canvas includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
@@ -198,7 +200,7 @@
 		
 		<div class="row clearfix common-height">
 
-			<div class="col-md-6 center col-padding" style="background: url('/assets/images/services/main-bg.jpg') center center no-repeat; background-size: cover;">
+			<div class="col-md-6 center col-padding" style="background: url('<?php echo assets_url(); ?>images/services/main-bg.jpg') center center no-repeat; background-size: cover;">
 				<div>&nbsp;</div>
 			</div>
 
@@ -211,8 +213,8 @@
 
 					<div class="center bottommargin">
 						<a href="http://vimeo.com/101373765" data-lightbox="iframe" style="position: relative;">
-							<img src="images/services/video.jpg" alt="Video">
-							<span class="i-overlay nobg"><img src="images/icons/video-play.png" alt="Play"></span>
+							<img src="<?php echo assets_url(); ?>images/services/video.jpg" alt="Video">
+							<span class="i-overlay nobg"><img src="<?php echo assets_url(); ?>images/icons/video-play.png" alt="Play"></span>
 						</a>
 					</div>
 					<p class="lead nobottommargin">Democracy inspire breakthroughs, Rosa Parks; inspiration raise awareness natural resources. Governance impact; transformative donation philanthropy, respect reproductive.</p>
@@ -227,37 +229,37 @@
 				<ul class="process-steps bottommargin clearfix">
 					<li style="width: 16%;">
 						<a href="#ptab1" class="i-alt divcenter">
-							<img style="width: 55px;" src="/assets/images/icons/features/responsive.png">
+							<img style="width: 55px;" src="<?php echo assets_url(); ?>images/icons/features/responsive.png">
 						</a>
 						<h5>Review Cart</h5>
 					</li>
 					<li style="width: 16%;">
 						<a href="#ptab2" class="i-alt divcenter">
-							<img style="width: 55px;" src="/assets/images/icons/features/tools.png">
+							<img style="width: 55px;" src="<?php echo assets_url(); ?>images/icons/features/tools.png">
 						</a>
 						<h5>Enter Shipping Info</h5>
 					</li>
 					<li style="width: 16%;">
 						<a href="#ptab3" class="i-alt divcenter">
-							<img style="width: 55px;" src="/assets/images/icons/features/tick.png">
+							<img style="width: 55px;" src="<?php echo assets_url(); ?>images/icons/features/tick.png">
 						</a>
 						<h5>Complete Payment</h5>
 					</li>
 					<li style="width: 16%;">
 						<a href="#ptab4" class="i-alt divcenter">
-							<img style="width: 55px;" src="/assets/images/icons/features/flag.png">
+							<img style="width: 55px;" src="<?php echo assets_url(); ?>images/icons/features/flag.png">
 						</a>
 						<h5>Order Complete</h5>
 					</li>
 					<li style="width: 16%;">
 						<a href="#ptab5" class="i-alt divcenter">
-							<img style="width: 55px;" src="/assets/images/icons/features/performance.png">
+							<img style="width: 55px;" src="<?php echo assets_url(); ?>images/icons/features/performance.png">
 						</a>
 						<h5>Order Complete</h5>
 					</li>
 					<li style="width: 16%;">
 						<a href="#ptab6" class="i-alt divcenter">
-							<img style="width: 55px;" src="/assets/images/icons/features/retina.png">
+							<img style="width: 55px;" src="<?php echo assets_url(); ?>images/icons/features/retina.png">
 						</a>
 						<h5>Order Complete</h5>
 					</li>
