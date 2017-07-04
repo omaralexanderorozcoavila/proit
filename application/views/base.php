@@ -46,7 +46,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div class="top-links">
 						<ul>
 							<li><a href="mailto:info@canvas.com"><i class="icon-email3"></i></a></li>
-							<li><a href="login-register.html">Login</a>
+							<li><a href="login">Login</a>
 								<div class="top-link-section">
 									<form id="top-login" role="form">
 										<div class="input-group" id="top-login-username">
