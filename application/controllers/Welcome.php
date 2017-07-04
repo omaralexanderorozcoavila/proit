@@ -120,6 +120,14 @@ class Welcome extends CI_Controller {
 		$this->load->view('base', $data);
 	}
 	
+	// Método de ruta a página de login
+	public function login()
+	{
+		$data['pagina'] = 'login.php';
+		$data['section'] = 'login';
+		$this->load->view('login', $data);
+	}
+	
 	
 	
 	

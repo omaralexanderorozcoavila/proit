@@ -6,7 +6,7 @@ $lang['nav_link'] = 'Home';
 $lang['nav_text_route4'] = 'Contact';
 
 // Form
-$lang['form_title'] = 'Send us an Email';
+$lang['contact_title'] = 'Contact';
 $lang['field_name'] = 'NAME';
 $lang['field_email'] = 'EMAIL';
 $lang['field_phone'] = 'PHONE';

@@ -46,21 +46,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div class="top-links">
 						<ul>
 							<li><a href="mailto:info@canvas.com"><i class="icon-email3"></i></a></li>
-							<li><a href="login-register.html">Login</a>
+							<!--<li><a href="login">Login</a>-->
+							<li><a href="#">Login</a>
 								<div class="top-link-section">
 									<form id="top-login" role="form">
 										<div class="input-group" id="top-login-username">
 											<span class="input-group-addon"><i class="icon-user"></i></span>
-											<input type="email" class="form-control" placeholder="Email address" required="">
+											<input type="email" id="username" name="username" class="form-control" placeholder="Email address" required="">
 										</div>
 										<div class="input-group" id="top-login-password">
 											<span class="input-group-addon"><i class="icon-key"></i></span>
-											<input type="password" class="form-control" placeholder="Password" required="">
+											<input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
 										</div>
 										<label class="checkbox">
 										  <input type="checkbox" value="remember-me"> Remember me
 										</label>
-										<button class="btn btn-danger btn-block" type="submit">Sign in</button>
+										<button class="btn btn-info btn-block" type="submit" id="loguear">Sign in</button>
 									</form>
 								</div>
 							</li>
@@ -258,6 +259,41 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<script type="text/javascript" src="<?php echo assets_url(); ?>js/jquery.gmap.js"></script>
 
 	<script type="text/javascript">
+		
+		// Función para validar formulario de logueo
+		$(document).ready(function () {
+			$("#loguear").click(function (e) {
+				e.preventDefault();  // Para evitar que se envíe por defecto
+				// Expresion regular para validar el correo
+				var regex = /[\w-\.]{2,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
+				
+				if ($('#username').val().trim() == "") {
+          
+				   //~ swal("Disculpe,", "para continuar debe ingresar el nombre de usuario");
+				   //~ $('#username').parent('div').addClass('has-error');
+				   //~ $('#username').focus();
+				   alert("Disculpe, para continuar debe ingresar su nombre de usuario");
+				   
+				} else if (!(regex.test($('#username').val().trim()))){
+					
+					//~ swal("Disculpe,", "el usuario debe ser una dirección de correo electrónico válida");
+					//~ $('#username').parent('div').addClass('has-error');
+					alert("Disculpe, el usuario debe ser una dirección de correo electrónico válida");
+					
+				} else if ($('#password').val().trim() === "") {
+				  
+				   //~ swal("Disculpe,", "para continuar debe ingresar una contraseña");
+				   //~ $('#password').parent('div').addClass('has-error');
+				   alert("Disculpe, para continuar debe ingresar su contraseña");
+				   
+				} else {
+					alert($('#username').val().trim());
+					alert($('#password').val().trim());
+					// Enviamos el formulario
+					//~ $('#top-login').submit();
+				}
+			});
+		});
 		
 		// Marcar la sección actual
 		if($("#section").val() == "index"){
