@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://192.168.1.132/proit/';
+$config['base_url'] = 'http://11.9.35.14/proit2/';
 
 /*
 |--------------------------------------------------------------------------
