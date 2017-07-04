@@ -70,6 +70,7 @@ $route['agriculture'] = 'welcome/agriculture';
 $route['cargomanagement'] = 'welcome/cargomanagement';
 $route['aquaculture'] = 'welcome/aquaculture';
 $route['products'] = 'welcome/products';
+$route['login'] = 'welcome/login';
 
 
 
