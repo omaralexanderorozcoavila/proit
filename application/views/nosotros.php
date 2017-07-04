@@ -50,8 +50,7 @@
 				</div>
 
 				<p>En PROIT TECHNOLOGIES, somos precursores en el desarrollo exponencial de su empresa, con relación a innovación, modernización tecnológica y digital.   Asimismo, conectamos de manera directa, sencilla y actual a sus clientes con relación a su negocio.    Estamos especializados en acoplarnos a cualquier tipo de área en donde usted requiera nuevas estrategias para el desenvolvimiento y rendimiento de sus actividades. 
-					<br><br> De igual manera, debemos resaltar la importancia de nuestra alianza comercial con la empresa COMPTA, que ocupa una posición envidiable en el mercado de las TI, con 45 años de experiencia acumula más de 400 certificaciones individuales y tiene el más alto nivel de certificación en sus principales socios estratégicos.   De esta manera podemos demostrar el nivel de seriedad, compromiso  y sobre todo responsabilidad que adquirimos con nuestros clientes, colaboradores y asociados.</p>
-
+				</p>
 			</div>
 
 		</div>
@@ -67,15 +66,16 @@
 				<div class="oc-item">
 					<div class="team">
 						<div class="team-image">
-							<img src="assets/images/team/3.jpg" alt="John Doe">
+							<img src="assets/images/team/se.jpg" alt="Siulmary Ovalles">
 						</div>
 						<div class="team-desc">
 							<div class="team-title"><h4>Siulmary Ovalles</h4><span>CEO</span></div>
-							<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
+							<a href="https://www.linkedin.com/in/siulmary-ovalles-manzanilla-567b7b84" target="_blank" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
+								<i class="icon-linkedin"></i>
+								<i class="icon-linkedin"></i>
 							</a>
-							<a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+							<!--
+                            <a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
 								<i class="icon-twitter"></i>
 								<i class="icon-twitter"></i>
 							</a>
@@ -83,20 +83,22 @@
 								<i class="icon-gplus"></i>
 								<i class="icon-gplus"></i>
 							</a>
+                            -->
 						</div>
 					</div>
 				</div>
 				<div class="oc-item">
 					<div class="team">
 						<div class="team-image">
-							<img src="assets/images/team/2.jpg" alt="Josh Clark">
+							<img src="assets/images/team/ht.jpg" alt="Henry Trejgier">
 						</div>
 						<div class="team-desc">
 							<div class="team-title"><h4>Henry Trejgier</h4><span>Executive Director</span></div>
-							<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-							</a>
+							<a href="https://www.linkedin.com/in/henry-trejgier-7a9b3b96" target="_blank" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
+								<i class="icon-linkedin"></i>
+								<i class="icon-linkedin"></i>
+                            </a>
+                            <!--
 							<a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
 								<i class="icon-twitter"></i>
 								<i class="icon-twitter"></i>
@@ -105,21 +107,23 @@
 								<i class="icon-gplus"></i>
 								<i class="icon-gplus"></i>
 							</a>
+                            -->
 						</div>
 					</div>
 				</div>
 				<div class="oc-item">
 					<div class="team">
 						<div class="team-image">
-							<img src="assets/images/team/8.jpg" alt="Mary Jane">
+							<img src="assets/images/team/hc.jpg" alt="Henry Canfield">
 						</div>
 						<div class="team-desc">
 							<div class="team-title"><h4>Henry Canfield</h4><span>Sales Director</span></div>
-							<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-							</a>
-							<a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+							<a href="https://www.linkedin.com/in/henrycanfield" target="_blank" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
+								<i class="icon-linkedin"></i>
+								<i class="icon-linkedin"></i>
+                            </a>
+							<!--
+                            <a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
 								<i class="icon-twitter"></i>
 								<i class="icon-twitter"></i>
 							</a>
@@ -127,21 +131,24 @@
 								<i class="icon-gplus"></i>
 								<i class="icon-gplus"></i>
 							</a>
+                            -->
 						</div>
 					</div>
 				</div>
 				<div class="oc-item">
 					<div class="team">
 						<div class="team-image">
-							<img src="assets/images/team/4.jpg" alt="Nix Maxwell">
+							<img src="assets/images/team/rl.jpg" alt="Renato Lerner">
 						</div>
 						<div class="team-desc">
 							<div class="team-title"><h4>Renato Lerner</h4><span>Partner</span></div>
-							<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-							</a>
-							<a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+							<a href="https://www.linkedin.com/in/renato-lerner-a6b32915/" target="_blank" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
+								<i class="icon-linkedin"></i>
+								<i class="icon-linkedin"></i>
+							
+                            </a>
+							<!--
+                            <a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
 								<i class="icon-twitter"></i>
 								<i class="icon-twitter"></i>
 							</a>
@@ -149,6 +156,7 @@
 								<i class="icon-gplus"></i>
 								<i class="icon-gplus"></i>
 							</a>
+                            -->
 						</div>
 					</div>
 				</div>
