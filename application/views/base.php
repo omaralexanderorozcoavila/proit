@@ -135,7 +135,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								</ul>
 							</li>
 							<li id="li_smartcities"><a href="smartcities"><div><?php echo $this->lang->line('link_ciudades'); ?></div><span>Intelligent Solutions</span></a></li>
-							<li id="li_smartindustries"><a href="smartindustries"><div><?php echo $this->lang->line('link_smartindustries'); ?></div><span>4.0 Industry</span></a></li>
+<!--							<li id="li_smartindustries"><a href="smartindustries"><div><?php echo $this->lang->line('link_smartindustries'); ?></div><span>4.0 Industry</span></a></li>
 							<li id="li_products"><a href="#"><div><?php echo $this->lang->line('link_soluciones'); ?></div><span>Innovations for Industry & Smartcities</span></a>
 								<ul>
 									<li><a href="energyconsumption"><div><?php echo $this->lang->line('link_energia'); ?></div></a></li>
@@ -150,6 +150,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<li><a href="products"><div><?php echo $this->lang->line('link_products'); ?></div></a></li>
 								</ul>
 							</li>
+-->
 							<li id="li_contact">
 								<a href="contacto"><div><?php echo $this->lang->line('link_contactos'); ?></div><span>Know us</span></a>
 							</li>
