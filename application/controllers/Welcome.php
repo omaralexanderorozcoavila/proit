@@ -128,6 +128,14 @@ class Welcome extends CI_Controller {
 		$this->load->view('login', $data);
 	}
 	
+	// Método de ruta a página de login
+	public function public_perfil()
+	{
+		$data['pagina'] = 'public_perfil.php';
+		$data['section'] = 'index';
+		$this->load->view('base', $data);
+	}
+	
 	
 	
 	

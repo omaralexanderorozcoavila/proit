@@ -71,6 +71,9 @@ $route['cargomanagement'] = 'welcome/cargomanagement';
 $route['aquaculture'] = 'welcome/aquaculture';
 $route['products'] = 'welcome/products';
 $route['login'] = 'welcome/login';
+$route['login_public'] = 'CLogin/login_public';
+$route['public_perfil'] = 'welcome/public_perfil';
+$route['logout_public'] = 'CLogin/logout_public/';
 
 
 

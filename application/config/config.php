@@ -26,7 +26,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $config['base_url'] = 'http://10.9.35.117/proit/';
 
-
 /*
 |--------------------------------------------------------------------------
 | Index File
