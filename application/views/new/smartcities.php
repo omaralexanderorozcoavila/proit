@@ -266,33 +266,249 @@
 				</ul>
 				<div>
 					<div id="ptab1">
-						<div class="alert alert-success">
-							<strong>Thank You.</strong> ptab2
+						<div class="alert">
+							<div class="table-responsive">
+							  <table class="table table-bordered nobottommargin">
+								<thead>
+								  <tr>
+									<th>Featured Products</th>
+									<th>City Areas of Applicability</th>
+									<th>Energy Savings</th>
+									<th>Operational Savings</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr>
+									<td>Bee2LIGHTING</td>
+									<td>Public Lighting</td>
+									<td>8% to 25%</td>
+									<td>10% to 15%</td>
+								  </tr>
+								  <tr>
+									<td rowspan="6"><br><br>Bee2ENERGY<br><br>Bee2WATER<br><br>Bee2GAS</td>
+									<td>Public Buildings</td>
+									<td rowspan="6"><br><br><br><br><br>20% to 30%</td>
+									<td rowspan="6"><br><br><br><br><br>25% to 35%</td>
+								  </tr>
+								  <tr>
+									<!--<td>Table cell</td>-->
+									<td>Schools</td>
+									<!--<td>Table cell</td>-->
+									<!--<td>Table cell</td>-->
+								  </tr>
+								  <tr>
+									<!--<td>Table cell</td>-->
+									<td>Museums & Theaters</td>
+									<!--<td>Table cell</td>-->
+									<!--<td>Table cell</td>-->
+								  </tr>
+								  <tr>
+									<!--<td>Table cell</td>-->
+									<td>Sport Stadiums</td>
+									<!--<td>Table cell</td>-->
+									<!--<td>Table cell</td>-->
+								  </tr>
+								  <tr>
+									<!--<td>Table cell</td>-->
+									<td>Sports Pavilions</td>
+									<!--<td>Table cell</td>-->
+									<!--<td>Table cell</td>-->
+								  </tr>
+								  <tr>
+									<!--<td>Table cell</td>-->
+									<td>Swimming Pools</td>
+									<!--<td>Table cell</td>-->
+									<!--<td>Table cell</td>-->
+								  </tr>
+								</tbody>
+							  </table>
+							</div>
 						</div>
 					</div>
 					<div id="ptab2">
-						<div class="alert alert-success">
-							<strong>Thank You.</strong> ptab2
+						<div class="alert">
+							<div class="table-responsive">
+							  <table class="table table-bordered nobottommargin">
+								<thead>
+								  <tr>
+									<th>Featured Products</th>
+									<th>City Areas of Applicability</th>
+									<th>Energy Savings</th>
+									<th>Operational Savings</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr>
+									<td rowspan="5"><br><br>Bee2IRRIGATION<br><br>Bee2ENERGY<br><br>Bee2WATER</td>
+									<td>City Green Areas</td>
+									<td rowspan="5"><br><br><br><br>25% to 30%</td>
+									<td rowspan="5"><br><br><br><br>35% to 40%</td>
+								  </tr>
+								  <tr>
+									<!--<td>Table cell</td>-->
+									<td>Public Parks & Gardens</td>
+									<!--<td>Table cell</td>-->
+									<!--<td>Table cell</td>-->
+								  </tr>
+								  <tr>
+									<!--<td>Table cell</td>-->
+									<td>Lakes</td>
+									<!--<td>Table cell</td>-->
+									<!--<td>Table cell</td>-->
+								  </tr>
+								  <tr>
+									<!--<td>Table cell</td>-->
+									<td>Fountains</td>
+									<!--<td>Table cell</td>-->
+									<!--<td>Table cell</td>-->
+								  </tr>
+								  <tr>
+									<!--<td>Table cell</td>-->
+									<td>Air Quality Control</td>
+									<!--<td>Table cell</td>-->
+									<!--<td>Table cell</td>-->
+								  </tr>
+								</tbody>
+							  </table>
+							</div>
 						</div>
 					</div>
 					<div id="ptab3">
-						<div class="alert alert-success">
-							<strong>Thank You.</strong> ptab3
+						<div class="alert">
+							<div class="table-responsive">
+							  <table class="table table-bordered nobottommargin">
+								<thead>
+								  <tr>
+									<th>Featured Products</th>
+									<th>City Areas of Applicability</th>
+									<th>Energy Savings</th>
+									<th>Operational Savings</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr>
+									<td rowspan="3"><br><br>Bee2WASTE</td>
+									<td>Solid Urban Waste Collection</td>
+									<td rowspan="3"><br><br>10% to 20%</td>
+									<td rowspan="3"><br><br>20% to 40%</td>
+								  </tr>
+								  <tr>
+									<!--<td>Table cell</td>-->
+									<td>Waste Containers Operation</td>
+									<!--<td>Table cell</td>-->
+									<!--<td>Table cell</td>-->
+								  </tr>
+								  <tr>
+									<!--<td>Table cell</td>-->
+									<td>Selective and Undifferentiated</td>
+									<!--<td>Table cell</td>-->
+									<!--<td>Table cell</td>-->
+								  </tr>
+								</tbody>
+							  </table>
+							</div>
 						</div>
 					</div>
 					<div id="ptab4">
-						<div class="alert alert-success">
-							<strong>Thank You.</strong> ptab4
+						<div class="alert">
+							<div class="table-responsive">
+							  <table class="table table-bordered nobottommargin">
+								<thead>
+								  <tr>
+									<th>Featured Products</th>
+									<th>City Areas of Applicability</th>
+									<th>Energy Savings</th>
+									<th>Operational Savings</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr>
+									<td rowspan="4"><br><br><br>Bee2FLEET</td>
+									<td>City Vehicles Fleet</td>
+									<td rowspan="4"><br><br><br>10% to 20%</td>
+									<td rowspan="4"><br><br><br>20% to 25%</td>
+								  </tr>
+								  <tr>
+									<!--<td>Table cell</td>-->
+									<td>Fuel Management</td>
+									<!--<td>Table cell</td>-->
+									<!--<td>Table cell</td>-->
+								  </tr>
+								  <tr>
+									<!--<td>Table cell</td>-->
+									<td>Drivers Scheduling</td>
+									<!--<td>Table cell</td>-->
+									<!--<td>Table cell</td>-->
+								  </tr>
+								  <tr>
+									<!--<td>Table cell</td>-->
+									<td>Repair and Maintenance</td>
+									<!--<td>Table cell</td>-->
+									<!--<td>Table cell</td>-->
+								  </tr>
+								</tbody>
+							  </table>
+							</div>
 						</div>
 					</div>
 					<div id="ptab5">
-						<div class="alert alert-success">
-							<strong>Thank You.</strong> ptab5
+						<div class="alert">
+							<div class="table-responsive">
+							  <table class="table table-bordered nobottommargin">
+								<thead>
+								  <tr>
+									<th>Featured Products</th>
+									<th>City Areas of Applicability</th>
+									<th>Energy Savings</th>
+									<th>Operational Savings</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr>
+									<td rowspan="2"><br>ProdFarmer</td>
+									<td>Regional Products Certification</td>
+									<td rowspan="2"><br>Local Economy Boost</td>
+									<td rowspan="2"><br>2% to 5%</td>
+								  </tr>
+								  <tr>
+									<!--<td>Table cell</td>-->
+									<td>Local Entrepreneurship  Support</td>
+									<!--<td>Table cell</td>-->
+									<!--<td>Table cell</td>-->
+								  </tr>
+								</tbody>
+							  </table>
+							</div>
 						</div>
 					</div>
 					<div id="ptab6">
-						<div class="alert alert-success">
-							<strong>Thank You.</strong> ptab6
+						<div class="alert">
+							<div class="table-responsive">
+							  <table class="table table-bordered nobottommargin">
+								<thead>
+								  <tr>
+									<th>Featured Products</th>
+									<th>City Areas of Applicability</th>
+									<th>Energy Savings</th>
+									<th>Operational Savings</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr>
+									<td rowspan="2"><br>XIMI Bee2Citizen</td>
+									<td>Citizen/City Communication</td>
+									<td rowspan="2"><br>Efficiency Improvements</td>
+									<td rowspan="2"><br>50% to 65%</td>
+								  </tr>
+								  <tr>
+									<!--<td>Table cell</td>-->
+									<td>Social Inclusion</td>
+									<!--<td>Table cell</td>-->
+									<!--<td>Table cell</td>-->
+								  </tr>
+								</tbody>
+							  </table>
+							</div>
 						</div>
 					</div>
 				</div>

@@ -47,9 +47,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<ul>
 							<li><a href="mailto:info@canvas.com"><i class="icon-email3"></i></a></li>
 							<!--<li><a href="login">Login</a>-->
+							<?php
+							$ci = & get_instance();
+							if(isset($ci->session->userdata['logged_in_public'])){
+							?>
+							<li>
+								<span class="ws-nowrap"><i class="icon-logout icons"></i><a href="<?php echo base_url(); ?>public_perfil" id="cerrar"><?php echo $this->session->userdata['logged_in_public']['username']; ?></a></span>
+								|
+								<span class="ws-nowrap"><i class="icon-logout icons"></i><a href="<?php echo base_url(); ?>logout_public" id="cerrar">Salir</a></span>
+							</li>
+							<?php
+							}else{
+							?>
 							<li><a href="#">Login</a>
 								<div class="top-link-section">
-									<form id="top-login" role="form">
+									<form id="top-login" action="login_public" method="post" role="form">
 										<div class="input-group" id="top-login-username">
 											<span class="input-group-addon"><i class="icon-user"></i></span>
 											<input type="email" id="username" name="username" class="form-control" placeholder="Email address" required="">
@@ -65,6 +77,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									</form>
 								</div>
 							</li>
+							<li>
+								<span class="ws-nowrap">
+									<div class="error" style="color:red;">
+									<?php 
+									if(isset($_GET['error'])){
+										if($_GET['error'] == '1'){
+											echo 'Usuario o contraseña incorrectos';
+										}else if($_GET['error'] == '2'){
+											echo 'Disculpe, el usuario no tiene acceso, consulte con el administrador del sistema';
+										}else{
+											echo "";
+										}
+									}
+									?>
+									</div>
+								</span>
+							</li>
+							<?php
+							}
+							?>
 						</ul>
 					</div><!-- .top-links end -->
 
@@ -287,11 +319,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				   alert("Disculpe, para continuar debe ingresar su contraseña");
 				   
 				} else {
-					alert($('#username').val().trim());
-					alert($('#password').val().trim());
+					//~ alert($('#username').val().trim());
+					//~ alert($('#password').val().trim());
 					// Enviamos el formulario
-					//~ $('#top-login').submit();
+					$('#top-login').submit();
 				}
+			});
+			
+			//abrir modal de registro/inicio
+			$("#cerrar").click(function (e) {
+				window.location.href = base_url+'logout_public';
 			});
 		});
 		
@@ -343,3 +380,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 </body>
 </html>
+<?php
+//~ echo validar_acceso_publico();
+?>
