@@ -32,14 +32,12 @@
 
 		</div>
 
-<div class="heading-block fancy-title nobottomborder title-bottom-border">
-					<h4><span>PROIT TECHNOLOGIES</span> & COMPTA.</h4>
+<div>
 				</div>
 
-				<p>
-					 Estamos orgullosos de trabajar con los líderes relacionados al sector de la tecnología, quienes buscan ofrecer servicios de excelente calidad. Las relaciones que hemos construido se basan en la confianza, los resultados y el servicio al cliente y han resultado duraderas y exitosas. 
-					
-				   <br><br> Nuestra alianza comercial con COMPTA, empresa que ocupa una posición envidiable en el mercado de las TI, con 45 años de experiencia acumula más de 400 certificaciones individuales y tiene el más alto nivel de certificación en sus principales socios estratégicos. De esta manera podemos demostrar el nivel de seriedad, compromiso  y sobre todo responsabilidad que adquirimos con nuestros clientes, colaboradores y asociados.</p>
+				<div class="col_one_third bottommargin-sm center">
+						<img data-animate="fadeInLeft" src="assets/images/logo/compta-eb.png" alt="Compta">
+					</div>
 
 			</div>
 
